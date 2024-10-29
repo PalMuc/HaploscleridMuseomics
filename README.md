@@ -22,7 +22,7 @@ Unambiguous taxonomic identification is fundamental for defining species boundar
 This repository includes the following:
 
 * PHYLUCE Tutorial I settings to generate nexus & phylip files: *Create_CSE_Alignment_Files*
-* The parameters and settings for reconstructing the ML phylogenies using RAxML *RAxML/*
+* The parameters and settings for reconstructing the ML phylogenies using RAxML: *RAxML/*
 * The parameters and settings for reconstructing the bayesian phylogenies using RevBayes: *Bayesian/*
 * Folder containing all the trees generated using RAxML: *RAxML/*
 * Folder containing all the trees generated using RevBayes: *Bayesian/*
