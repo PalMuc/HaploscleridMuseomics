@@ -1,0 +1,310 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    mpcn4 (AVX512, FMA3, 755 GB RAM)
+Command: iqtree2 -s Backbone_25p.phylip -m GTR+G+F -T 24 --prefix Petro_monophyly -g Petrosia_mono.txt
+Seed:    632331 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  4 16:56:28 2024
+Kernel:  AVX+FMA - 24 threads (80 CPU cores detected)
+
+Reading alignment file Backbone_25p.phylip ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 201 sequences with 83331 columns, 62301 distinct patterns
+43764 parsimony-informative, 10134 singleton sites, 29433 constant sites
+           Gap/Ambiguity  Composition  p-value
+   1  GW3005      68.19%    failed      0.00%
+   2  GW3010      61.83%    failed      0.06%
+   3  GW3018      59.87%    passed     67.06%
+   4  GW3108      52.42%    passed     82.49%
+   5  GW3122      65.86%    failed      0.00%
+   6  GW34000     65.67%    failed      0.00%
+   7  GW34006     68.27%    failed      0.00%
+   8  GW34010     64.21%    failed      0.00%
+   9  GW34027     70.09%    failed      0.00%
+  10  GW34036     59.15%    failed      0.00%
+  11  GW34040     69.28%    failed      0.00%
+  12  GW34042     69.15%    failed      0.00%
+  13  GW34050     47.96%    failed      0.00%
+  14  GW34050_2   56.39%    failed      0.00%
+  15  GW34062     66.05%    failed      0.00%
+  16  GW34069     61.79%    failed      0.00%
+  17  GW34094     64.33%    failed      0.00%
+  18  GW34102     81.87%    failed      0.00%
+  19  GW34110     68.82%    failed      0.00%
+  20  GW34113     64.33%    failed      0.00%
+  21  GW34119     56.68%    failed      0.00%
+  22  GW34132     62.27%    failed      0.02%
+  23  GW34133     64.59%    passed     60.10%
+  24  GW34136     59.09%    passed      7.71%
+  25  GW34148     79.68%    failed      0.00%
+  26  GW34165     38.59%    failed      0.00%
+  27  GW34166     37.47%    failed      0.00%
+  28  GW34514     45.14%    failed      0.00%
+  29  GW34522     72.91%    failed      0.00%
+  30  GW34554     47.38%    failed      0.01%
+  31  GW34565     73.77%    failed      0.00%
+  32  GW34568     50.47%    failed      0.00%
+  33  GW34595     63.92%    failed      0.00%
+  34  GW34644     66.47%    failed      0.00%
+  35  GW34645     63.90%    failed      0.00%
+  36  GW34736     55.06%    failed      0.00%
+  37  GW34738     49.69%    failed      0.00%
+  38  GW34759     29.72%    failed      0.00%
+  39  GW34785     63.76%    failed      0.00%
+  40  GW35165     73.97%    failed      0.00%
+  41  GW35173     73.08%    failed      0.00%
+  42  GW35174     71.25%    failed      0.00%
+  43  GW35175     68.84%    failed      0.00%
+  44  GW35177     53.24%    failed      0.00%
+  45  GW35183     67.74%    failed      0.00%
+  46  GW35185     63.61%    failed      0.00%
+  47  GW35203     49.78%    failed      0.00%
+  48  GW35211     67.39%    failed      0.00%
+  49  GW35213     60.55%    failed      0.00%
+  50  GW4146      48.84%    failed      0.00%
+  51  GW4191      66.50%    failed      0.00%
+  52  GW4246      53.45%    failed      0.00%
+  53  GW4374      64.61%    failed      0.00%
+  54  GW4433      42.72%    failed      0.00%
+  55  GW5894      43.68%    failed      0.00%
+  56  GW6018      50.38%    failed      0.00%
+  57  GW6114      59.38%    failed      0.02%
+  58  GW6134      43.38%    failed      0.07%
+  59  PFIC        76.03%    failed      0.00%
+  60  GW3123      71.06%    passed     17.11%
+  61  GW3257      49.87%    failed      0.00%
+  62  GW34058     50.88%    failed      0.00%
+  63  GW34063     63.65%    failed      0.00%
+  64  GW34120     75.36%    failed      0.00%
+  65  GW34149     39.93%    failed      0.04%
+  66  GW34170     59.56%    failed      0.37%
+  67  GW34172     50.62%    failed      0.00%
+  68  GW34174_2   76.48%    passed      6.28%
+  69  GW34176     47.81%    failed      0.00%
+  70  GW34178     61.93%    failed      4.49%
+  71  GW34190     70.65%    passed      5.66%
+  72  GW34575     85.41%    failed      0.00%
+  73  GW34579     49.68%    failed      0.00%
+  74  GW34588     51.62%    failed      0.00%
+  75  GW34635     68.86%    failed      1.21%
+  76  GW34638     39.58%    failed      0.00%
+  77  GW34749     63.79%    failed      0.49%
+  78  GW34767     68.75%    failed      0.00%
+  79  GW34772     67.64%    failed      0.09%
+  80  GW34777     43.42%    failed      0.00%
+  81  GW34797     47.36%    failed      0.00%
+  82  GW35161     64.94%    failed      0.00%
+  83  GW35164     61.10%    failed      0.00%
+  84  GW35170     67.23%    failed      0.00%
+  85  GW35195     51.75%    failed      0.00%
+  86  GW35206     51.95%    failed      0.00%
+  87  GW5878      66.82%    passed     61.23%
+  88  GW5936      67.23%    failed      0.11%
+  89  GW6059      55.89%    failed      0.00%
+  90  XTES        80.91%    failed      0.00%
+  91  GW34016     49.63%    failed      0.00%
+  92  GW34039     67.78%    failed      0.00%
+  93  GW34059     63.78%    failed      0.00%
+  94  GW34065     86.96%    failed      0.00%
+  95  GW34088     60.64%    failed      0.00%
+  96  GW34175     68.27%    failed      0.00%
+  97  GW34184     52.53%    failed      0.00%
+  98  GW34188     54.04%    failed      0.00%
+  99  GW34566     49.18%    failed      0.00%
+ 100  GW34622     68.50%    failed      0.00%
+ 101  GW34624     68.92%    failed      0.00%
+ 102  GW34695     77.54%    failed      0.00%
+ 103  GW35158     70.43%    failed      0.00%
+ 104  GW35167     72.40%    failed      0.00%
+ 105  GW35182     80.14%    failed      0.00%
+ 106  GW35186     44.84%    failed      0.00%
+ 107  GW35202     66.55%    failed      0.00%
+ 108  GW35209     51.74%    failed      0.00%
+ 109  GW5998      52.54%    failed      0.00%
+ 110  LAPI        87.61%    failed      0.00%
+ 111  AMQU        68.80%    passed     23.30%
+ 112  GW34021     53.01%    failed      0.00%
+ 113  GW34041     72.95%    failed      0.00%
+ 114  GW34051     62.49%    failed      0.03%
+ 115  GW34072     88.79%    failed      0.00%
+ 116  GW34080     54.63%    failed      0.00%
+ 117  GW34114     63.84%    failed      0.00%
+ 118  GW34171     73.90%    failed      0.00%
+ 119  GW34195     70.62%    failed      0.00%
+ 120  GW34534     85.37%    passed     10.50%
+ 121  GW34583     68.06%    failed      0.00%
+ 122  GW34617     70.84%    failed      0.00%
+ 123  GW35180     69.93%    passed     27.70%
+ 124  GW6015      67.97%    failed      0.00%
+ 125  HSIM        67.20%    failed      0.00%
+ 126  SCSP        85.18%    failed      0.00%
+ 127  GW34015     76.51%    passed     75.16%
+ 128  GW34031     75.05%    failed      0.00%
+ 129  GW34098     62.58%    failed      0.29%
+ 130  GW34116     91.96%    passed      7.98%
+ 131  GW34123     68.36%    failed      0.01%
+ 132  GW34128     67.24%    failed      0.00%
+ 133  GW34130     77.23%    failed      0.01%
+ 134  GW34135     71.39%    passed     11.15%
+ 135  GW34141     63.16%    passed      8.26%
+ 136  GW34156     60.83%    failed      0.00%
+ 137  GW34158     64.23%    failed      3.23%
+ 138  GW34162     88.33%    failed      0.00%
+ 139  GW34163     75.35%    passed     42.99%
+ 140  GW34179     72.78%    failed      0.00%
+ 141  GW34208     61.67%    failed      0.00%
+ 142  GW34223     54.58%    failed      0.06%
+ 143  GW34621     74.61%    failed      0.00%
+ 144  GW34639     63.49%    failed      0.90%
+ 145  GW35159     77.61%    passed     37.72%
+ 146  GW35162     67.27%    failed      0.00%
+ 147  GW35176     70.41%    failed      0.00%
+ 148  GW35197     65.07%    failed      0.00%
+ 149  GW35201     64.01%    failed      0.00%
+ 150  GW35210     77.54%    passed     59.42%
+ 151  GW4436      64.55%    failed      0.00%
+ 152  HCIN        72.62%    failed      0.00%
+ 153  HIND        68.63%    failed      0.00%
+ 154  HOCU        66.30%    failed      0.00%
+ 155  HVIS        65.16%    failed      0.00%
+ 156  LCHO        91.19%    passed     13.88%
+ 157  NCOM        68.60%    failed      0.00%
+ 158  DANT        94.06%    failed      0.00%
+ 159  GW4285      66.87%    failed      0.44%
+ 160  TWIL        86.38%    failed      0.00%
+ 161  GW34055     56.32%    failed      0.03%
+ 162  GW34180     84.86%    failed      0.00%
+ 163  GW34582     68.66%    failed      0.00%
+ 164  GW4148      74.38%    failed      0.02%
+ 165  GW34076     71.42%    failed      0.00%
+ 166  GW34799     80.39%    failed      0.00%
+ 167  GW35178     86.90%    failed      1.69%
+ 168  GW4507      80.82%    failed      1.00%
+ 169  GW34026     69.40%    failed      0.00%
+ 170  GW34169     65.86%    failed      0.00%
+ 171  GW35160     69.53%    failed      1.10%
+ 172  GW35168     63.33%    passed     69.55%
+ 173  GW35169     63.42%    passed     97.99%
+ 174  GW34022     63.23%    failed      4.10%
+ 175  GW35166     68.85%    passed     31.81%
+ 176  GW34173     68.67%    failed      0.00%
+ 177  GW34181_2   74.64%    failed      0.00%
+ 178  GW34771     96.28%    passed      7.89%
+ 179  GW35171     71.39%    failed      0.00%
+ 180  GW35179     88.30%    failed      0.00%
+ 181  GW35200     82.60%    failed      0.00%
+ 182  GW4226      66.45%    failed      0.00%
+ 183  GW34049     92.02%    failed      0.37%
+ 184  GW34079     90.28%    failed      0.00%
+ 185  GW34194     85.46%    failed      0.00%
+ 186  GW34608     94.27%    passed     62.30%
+ 187  GW34620     91.36%    failed      0.00%
+ 188  GW34737     90.80%    failed      0.00%
+ 189  GW34794     83.62%    failed      0.00%
+ 190  GW34808     85.88%    failed      0.00%
+ 191  GW34044     82.18%    failed      0.00%
+ 192  GW34139     89.08%    failed      4.44%
+ 193  GW34558     85.46%    failed      0.00%
+ 194  HTUB        72.09%    failed      0.00%
+ 195  GW34804     94.10%    failed      0.78%
+ 196  HAMB        82.86%    failed      0.01%
+ 197  GW34137     89.89%    failed      0.13%
+ 198  GW34181     68.52%    failed      0.00%
+ 199  SOFF        91.57%    failed      1.17%
+ 200  GW34182     98.95%    passed     31.97%
+ 201  GW34577     98.13%    failed      0.00%
+WARNING: 179 sequences contain more than 50% gaps/ambiguity
+****  TOTAL       67.52%  176 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading constraint tree Petrosia_mono.txt...
+Creating fast initial parsimony tree by random order stepwise addition...
+2.710 seconds, parsimony score: 400908 (based on 53898 sites)
+
+NOTE: 1624 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1973496.901
+2. Current log-likelihood: -1749489.113
+3. Current log-likelihood: -1745870.739
+4. Current log-likelihood: -1745743.370
+5. Current log-likelihood: -1745730.071
+6. Current log-likelihood: -1745727.346
+7. Current log-likelihood: -1745726.342
+8. Current log-likelihood: -1745725.799
+9. Current log-likelihood: -1745725.435
+Optimal log-likelihood: -1745725.249
+Rate parameters:  A-C: 0.91222  A-G: 3.84912  A-T: 1.46700  C-G: 0.78871  C-T: 3.62738  G-T: 1.00000
+Base frequencies:  A: 0.271  C: 0.229  G: 0.227  T: 0.273
+Gamma shape alpha: 0.411
+Parameters optimization took 9 rounds (61.490 sec)
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 13.101 second
+Computing log-likelihood of 99 initial trees ... 86.251 seconds
+Current best score: -1745725.249
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1734312.272
+Iteration 10 / LogL: -1737999.173 / Time: 0h:5m:58s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 18: -1734250.412
+Iteration 20 / LogL: -1740730.791 / Time: 0h:9m:31s
+Finish initializing candidate tree set (20)
+Current best tree score: -1734250.412 / CPU time: 506.979
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -1734171.470
+Iteration 30 / LogL: -1734433.056 / Time: 0h:12m:52s (0h:42m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -1734061.504
+Iteration 40 / LogL: -1734082.504 / Time: 0h:15m:40s (0h:37m:39s left)
+Iteration 50 / LogL: -1734097.947 / Time: 0h:18m:1s (0h:30m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 57: -1734037.915
+Iteration 60 / LogL: -1734075.790 / Time: 0h:21m:45s (0h:35m:41s left)
+Iteration 70 / LogL: -1734054.580 / Time: 0h:24m:31s (0h:30m:51s left)
+Iteration 80 / LogL: -1734971.557 / Time: 0h:27m:7s (0h:26m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 85: -1734023.927
+Iteration 90 / LogL: -1734232.057 / Time: 0h:30m:14s (0h:32m:14s left)
+Iteration 100 / LogL: -1734066.482 / Time: 0h:33m:18s (0h:28m:33s left)
+Iteration 110 / LogL: -1734122.710 / Time: 0h:35m:58s (0h:24m:43s left)
+Iteration 120 / LogL: -1734206.445 / Time: 0h:39m:1s (0h:21m:17s left)
+Iteration 130 / LogL: -1734065.256 / Time: 0h:41m:47s (0h:17m:47s left)
+Iteration 140 / LogL: -1734079.657 / Time: 0h:44m:48s (0h:14m:29s left)
+Iteration 150 / LogL: -1734226.312 / Time: 0h:47m:45s (0h:11m:12s left)
+Iteration 160 / LogL: -1734052.169 / Time: 0h:50m:42s (0h:7m:58s left)
+Iteration 170 / LogL: -1734082.410 / Time: 0h:53m:34s (0h:4m:45s left)
+Iteration 180 / LogL: -1734090.919 / Time: 0h:56m:26s (0h:1m:34s left)
+TREE SEARCH COMPLETED AFTER 186 ITERATIONS / Time: 0h:58m:8s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1734023.927
+Optimal log-likelihood: -1734023.912
+Rate parameters:  A-C: 0.90316  A-G: 3.84525  A-T: 1.44383  C-G: 0.78357  C-T: 3.61306  G-T: 1.00000
+Base frequencies:  A: 0.271  C: 0.229  G: 0.227  T: 0.273
+Gamma shape alpha: 0.411
+Parameters optimization took 1 rounds (4.459 sec)
+BEST SCORE FOUND : -1734023.912
+Total tree length: 16.112
+
+Total number of iterations: 186
+CPU time used for tree search: 81858.229 sec (22h:44m:18s)
+Wall-clock time used for tree search: 3424.205 sec (0h:57m:4s)
+Total CPU time used: 83450.079 sec (23h:10m:50s)
+Total wall-clock time used: 3493.077 sec (0h:58m:13s)
+
+Analysis results written to: 
+  IQ-TREE report:                Petro_monophyly.iqtree
+  Maximum-likelihood tree:       Petro_monophyly.treefile
+  Screen log file:               Petro_monophyly.log
+
+Date and Time: Wed Sep  4 17:54:43 2024

@@ -2,15 +2,8 @@
 
 we used IQ-TREE 2 version 2.1.4-β (Minh et al. 2020).
 
-
-## To generate the best ML
 ```python
-iqtree2 -s Backbone_25p.phylip -m GTR+G+F -T 24 --prefix best_ml
-```
-
-## To test the different tree hypotheses
-```python
-iqtree2 -s Backbone_25p.phylip -m GTR+G+F -T 24 -z haplo_families_monophyletic.tre -n 0 -zb 10000 -zw -au
+iqtree2 -s Backbone_25p.phylip -m GTR+G+F -T 24 --prefix Cribro_monophyly -g Cribrochalina_mono.txt
 ```
 
 
