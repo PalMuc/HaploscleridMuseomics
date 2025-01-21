@@ -1,0 +1,7 @@
+# Read in the tree trace and construct the consensus tree tree #
+trace = readTreeTrace("output_bayesian_tree_posterior.trees", treetype="non-clock")
+trace.setBurnin(0.25)
+
+# Summarize tree trace and the consensus tree to file
+map_tree = mapTree(trace, file="CladeFGA_35p_bayesian.map.tre")
+con_tree = consensusTree(trace, file="CladeFGA_35p_bayesian.majrule.tre")
