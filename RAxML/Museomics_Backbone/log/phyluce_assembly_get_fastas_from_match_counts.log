@@ -1,0 +1,834 @@
+2024-11-20 11:46:15,052 - phyluce_assembly_get_fastas_from_match_counts - INFO - ===== Starting phyluce_assembly_get_fastas_from_match_counts ====
+2024-11-20 11:46:15,052 - phyluce_assembly_get_fastas_from_match_counts - INFO - Version: 1.7.1
+2024-11-20 11:46:15,052 - phyluce_assembly_get_fastas_from_match_counts - INFO - Commit: None
+2024-11-20 11:46:15,052 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --contigs: /home/jsprong/MUSEOMICS/fastas
+2024-11-20 11:46:15,052 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --extend_locus_contigs: None
+2024-11-20 11:46:15,052 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --extend_locus_db: None
+2024-11-20 11:46:15,052 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --incomplete_matrix: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:46:15,052 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --locus_db: /home/jsprong/MUSEOMICS/uce-search-results/probe.matches.sqlite
+2024-11-20 11:46:15,053 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --log_path: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/log
+2024-11-20 11:46:15,053 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --match_count_output: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.conf
+2024-11-20 11:46:15,053 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --output: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.fasta
+2024-11-20 11:46:15,053 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --verbosity: INFO
+2024-11-20 11:46:15,169 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 199 taxa in the match-count-config file named all-taxa-incomplete.conf
+2024-11-20 11:46:15,171 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 2939 UCE loci in an INCOMPLETE matrix
+2024-11-20 11:46:15,172 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for AMQU--------------------
+2024-11-20 11:46:15,498 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 621 UCE loci for AMQU
+2024-11-20 11:46:15,498 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for AMQU
+2024-11-20 11:46:44,831 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 19 contigs for AMQU
+2024-11-20 11:46:44,832 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:46:44,833 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for DANT--------------------
+2024-11-20 11:46:44,966 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 93 UCE loci for DANT
+2024-11-20 11:46:44,966 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for DANT
+2024-11-20 11:47:02,995 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 5 contigs for DANT
+2024-11-20 11:47:02,995 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:47:02,997 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW3005-------------------
+2024-11-20 11:47:03,198 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 306 UCE loci for GW3005
+2024-11-20 11:47:03,198 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW3005
+2024-11-20 11:47:07,990 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:47:07,992 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW3010-------------------
+2024-11-20 11:47:08,240 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 461 UCE loci for GW3010
+2024-11-20 11:47:08,241 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW3010
+2024-11-20 11:47:12,606 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:47:12,608 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW3018-------------------
+2024-11-20 11:47:12,873 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 510 UCE loci for GW3018
+2024-11-20 11:47:12,873 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW3018
+2024-11-20 11:47:17,140 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:47:17,142 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW3108-------------------
+2024-11-20 11:47:17,395 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 475 UCE loci for GW3108
+2024-11-20 11:47:17,396 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW3108
+2024-11-20 11:47:20,966 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:47:20,968 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW3122-------------------
+2024-11-20 11:47:21,161 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 284 UCE loci for GW3122
+2024-11-20 11:47:21,162 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW3122
+2024-11-20 11:47:26,923 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:47:26,925 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW3123-------------------
+2024-11-20 11:47:27,202 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 542 UCE loci for GW3123
+2024-11-20 11:47:27,202 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW3123
+2024-11-20 11:47:36,203 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:47:36,205 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW3257-------------------
+2024-11-20 11:47:36,459 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 469 UCE loci for GW3257
+2024-11-20 11:47:36,459 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW3257
+2024-11-20 11:47:42,505 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:47:42,507 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34000------------------
+2024-11-20 11:47:42,715 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 325 UCE loci for GW34000
+2024-11-20 11:47:42,715 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34000
+2024-11-20 11:48:36,273 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:48:36,276 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34006------------------
+2024-11-20 11:48:36,474 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 302 UCE loci for GW34006
+2024-11-20 11:48:36,474 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34006
+2024-11-20 11:48:43,922 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:48:43,923 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34010------------------
+2024-11-20 11:48:44,181 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 481 UCE loci for GW34010
+2024-11-20 11:48:44,182 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34010
+2024-11-20 11:49:05,154 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:49:05,156 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34015------------------
+2024-11-20 11:49:05,322 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 209 UCE loci for GW34015
+2024-11-20 11:49:05,322 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34015
+2024-11-20 11:49:10,044 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:49:10,046 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34016------------------
+2024-11-20 11:49:10,306 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 486 UCE loci for GW34016
+2024-11-20 11:49:10,306 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34016
+2024-11-20 11:49:40,478 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:49:40,479 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34021------------------
+2024-11-20 11:49:40,719 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 419 UCE loci for GW34021
+2024-11-20 11:49:40,719 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34021
+2024-11-20 11:49:43,029 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:49:43,031 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34022------------------
+2024-11-20 11:49:43,259 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 377 UCE loci for GW34022
+2024-11-20 11:49:43,259 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34022
+2024-11-20 11:50:07,642 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:50:07,644 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34026------------------
+2024-11-20 11:50:07,834 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 277 UCE loci for GW34026
+2024-11-20 11:50:07,834 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34026
+2024-11-20 11:50:10,063 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:50:10,064 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34027------------------
+2024-11-20 11:50:10,281 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 342 UCE loci for GW34027
+2024-11-20 11:50:10,281 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34027
+2024-11-20 11:50:30,028 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:50:30,030 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34031------------------
+2024-11-20 11:50:30,251 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 365 UCE loci for GW34031
+2024-11-20 11:50:30,251 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34031
+2024-11-20 11:51:13,109 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:51:13,111 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34036------------------
+2024-11-20 11:51:13,361 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 442 UCE loci for GW34036
+2024-11-20 11:51:13,361 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34036
+2024-11-20 11:51:32,604 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:51:32,606 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34039------------------
+2024-11-20 11:51:32,809 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 317 UCE loci for GW34039
+2024-11-20 11:51:32,809 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34039
+2024-11-20 11:52:02,291 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:52:02,292 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34040------------------
+2024-11-20 11:52:02,497 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 319 UCE loci for GW34040
+2024-11-20 11:52:02,497 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34040
+2024-11-20 11:52:12,697 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:52:12,699 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34041------------------
+2024-11-20 11:52:12,884 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 259 UCE loci for GW34041
+2024-11-20 11:52:12,885 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34041
+2024-11-20 11:52:38,521 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:52:38,523 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34042------------------
+2024-11-20 11:52:38,795 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 469 UCE loci for GW34042
+2024-11-20 11:52:38,795 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34042
+2024-11-20 11:53:07,374 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:53:07,375 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34044------------------
+2024-11-20 11:53:07,537 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 190 UCE loci for GW34044
+2024-11-20 11:53:07,538 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34044
+2024-11-20 11:53:15,130 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:53:15,132 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34049------------------
+2024-11-20 11:53:15,265 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 101 UCE loci for GW34049
+2024-11-20 11:53:15,265 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34049
+2024-11-20 11:53:30,337 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:53:30,338 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34050------------------
+2024-11-20 11:53:30,673 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 718 UCE loci for GW34050
+2024-11-20 11:53:30,673 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34050
+2024-11-20 11:53:45,682 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:53:45,683 - phyluce_assembly_get_fastas_from_match_counts - INFO - ------------------Getting UCE loci for GW34050_2-----------------
+2024-11-20 11:53:46,026 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 724 UCE loci for GW34050_2
+2024-11-20 11:53:46,026 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34050_2
+2024-11-20 11:54:24,272 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:54:24,273 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34051------------------
+2024-11-20 11:54:24,534 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 489 UCE loci for GW34051
+2024-11-20 11:54:24,534 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34051
+2024-11-20 11:54:45,904 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:54:45,906 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34055------------------
+2024-11-20 11:54:46,163 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 462 UCE loci for GW34055
+2024-11-20 11:54:46,163 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34055
+2024-11-20 11:54:49,740 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:54:49,742 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34058------------------
+2024-11-20 11:54:49,996 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 474 UCE loci for GW34058
+2024-11-20 11:54:49,996 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34058
+2024-11-20 11:55:28,674 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:55:28,676 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34059------------------
+2024-11-20 11:55:28,931 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 477 UCE loci for GW34059
+2024-11-20 11:55:28,931 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34059
+2024-11-20 11:55:44,830 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:55:44,832 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34062------------------
+2024-11-20 11:55:45,041 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 320 UCE loci for GW34062
+2024-11-20 11:55:45,041 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34062
+2024-11-20 11:55:49,619 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:55:49,620 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34063------------------
+2024-11-20 11:55:49,921 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 624 UCE loci for GW34063
+2024-11-20 11:55:49,921 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34063
+2024-11-20 11:55:53,273 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:55:53,274 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34065------------------
+2024-11-20 11:55:53,427 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 166 UCE loci for GW34065
+2024-11-20 11:55:53,427 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34065
+2024-11-20 11:56:07,463 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:56:07,465 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34069------------------
+2024-11-20 11:56:07,751 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 564 UCE loci for GW34069
+2024-11-20 11:56:07,751 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34069
+2024-11-20 11:56:31,417 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:56:31,418 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34072------------------
+2024-11-20 11:56:31,608 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 263 UCE loci for GW34072
+2024-11-20 11:56:31,608 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34072
+2024-11-20 11:57:45,439 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:57:45,441 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34076------------------
+2024-11-20 11:57:45,627 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 268 UCE loci for GW34076
+2024-11-20 11:57:45,627 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34076
+2024-11-20 11:57:48,922 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:57:48,923 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34079------------------
+2024-11-20 11:57:49,053 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 94 UCE loci for GW34079
+2024-11-20 11:57:49,053 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34079
+2024-11-20 11:57:51,416 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:57:51,418 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34080------------------
+2024-11-20 11:57:51,686 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 486 UCE loci for GW34080
+2024-11-20 11:57:51,686 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34080
+2024-11-20 11:57:56,303 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:57:56,306 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34088------------------
+2024-11-20 11:57:56,567 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 485 UCE loci for GW34088
+2024-11-20 11:57:56,567 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34088
+2024-11-20 11:58:16,627 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:58:16,629 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34094------------------
+2024-11-20 11:58:17,017 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 864 UCE loci for GW34094
+2024-11-20 11:58:17,017 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34094
+2024-11-20 11:58:42,266 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:58:42,268 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34098------------------
+2024-11-20 11:58:42,499 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 394 UCE loci for GW34098
+2024-11-20 11:58:42,499 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34098
+2024-11-20 11:59:02,417 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:59:02,419 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34102------------------
+2024-11-20 11:59:02,585 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 203 UCE loci for GW34102
+2024-11-20 11:59:02,585 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34102
+2024-11-20 11:59:31,255 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 11:59:31,257 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34110------------------
+2024-11-20 11:59:31,494 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 407 UCE loci for GW34110
+2024-11-20 11:59:31,494 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34110
+2024-11-20 12:00:11,085 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:00:11,087 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34113------------------
+2024-11-20 12:00:11,320 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 414 UCE loci for GW34113
+2024-11-20 12:00:11,320 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34113
+2024-11-20 12:00:28,347 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:00:28,349 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34114------------------
+2024-11-20 12:00:28,563 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 362 UCE loci for GW34114
+2024-11-20 12:00:28,563 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34114
+2024-11-20 12:00:44,868 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:00:44,869 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34116------------------
+2024-11-20 12:00:45,068 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 310 UCE loci for GW34116
+2024-11-20 12:00:45,069 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34116
+2024-11-20 12:04:01,962 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:04:01,964 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34119------------------
+2024-11-20 12:04:02,238 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 529 UCE loci for GW34119
+2024-11-20 12:04:02,238 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34119
+2024-11-20 12:05:00,408 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:05:00,410 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34120------------------
+2024-11-20 12:05:00,684 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 543 UCE loci for GW34120
+2024-11-20 12:05:00,685 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34120
+2024-11-20 12:05:25,012 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 1 contigs for GW34120
+2024-11-20 12:05:25,013 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:05:25,014 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34123------------------
+2024-11-20 12:05:25,237 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 384 UCE loci for GW34123
+2024-11-20 12:05:25,237 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34123
+2024-11-20 12:05:50,019 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:05:50,021 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34128------------------
+2024-11-20 12:05:50,243 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 385 UCE loci for GW34128
+2024-11-20 12:05:50,243 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34128
+2024-11-20 12:06:01,759 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:06:01,761 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34130------------------
+2024-11-20 12:06:02,008 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 445 UCE loci for GW34130
+2024-11-20 12:06:02,009 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34130
+2024-11-20 12:06:53,165 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:06:53,167 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34132------------------
+2024-11-20 12:06:53,447 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 546 UCE loci for GW34132
+2024-11-20 12:06:53,447 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34132
+2024-11-20 12:07:14,629 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:07:14,631 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34133------------------
+2024-11-20 12:07:14,907 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 500 UCE loci for GW34133
+2024-11-20 12:07:14,907 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34133
+2024-11-20 12:07:33,452 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:07:33,454 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34135------------------
+2024-11-20 12:07:33,710 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 467 UCE loci for GW34135
+2024-11-20 12:07:33,710 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34135
+2024-11-20 12:07:53,156 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:07:53,158 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34136------------------
+2024-11-20 12:07:53,442 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 562 UCE loci for GW34136
+2024-11-20 12:07:53,442 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34136
+2024-11-20 12:08:24,289 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:08:24,291 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34137------------------
+2024-11-20 12:08:24,429 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 112 UCE loci for GW34137
+2024-11-20 12:08:24,429 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34137
+2024-11-20 12:09:02,896 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 1 contigs for GW34137
+2024-11-20 12:09:02,897 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:09:02,898 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34139------------------
+2024-11-20 12:09:03,037 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 118 UCE loci for GW34139
+2024-11-20 12:09:03,037 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34139
+2024-11-20 12:09:05,439 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:09:05,441 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34141------------------
+2024-11-20 12:09:05,810 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 770 UCE loci for GW34141
+2024-11-20 12:09:05,810 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34141
+2024-11-20 12:09:23,083 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:09:23,084 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34148------------------
+2024-11-20 12:09:23,257 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 220 UCE loci for GW34148
+2024-11-20 12:09:23,257 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34148
+2024-11-20 12:09:31,731 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:09:31,733 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34149------------------
+2024-11-20 12:09:32,189 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 1063 UCE loci for GW34149
+2024-11-20 12:09:32,189 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34149
+2024-11-20 12:09:38,778 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:09:38,779 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34156------------------
+2024-11-20 12:09:39,009 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 390 UCE loci for GW34156
+2024-11-20 12:09:39,009 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34156
+2024-11-20 12:09:53,282 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:09:53,284 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34158------------------
+2024-11-20 12:09:53,558 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 528 UCE loci for GW34158
+2024-11-20 12:09:53,558 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34158
+2024-11-20 12:10:30,388 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:10:30,390 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34162------------------
+2024-11-20 12:10:30,530 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 117 UCE loci for GW34162
+2024-11-20 12:10:30,530 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34162
+2024-11-20 12:10:41,800 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:10:41,802 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34163------------------
+2024-11-20 12:10:41,990 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 244 UCE loci for GW34163
+2024-11-20 12:10:41,990 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34163
+2024-11-20 12:11:12,074 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:11:12,076 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34165------------------
+2024-11-20 12:11:12,518 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 1030 UCE loci for GW34165
+2024-11-20 12:11:12,518 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34165
+2024-11-20 12:11:19,180 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:11:19,181 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34166------------------
+2024-11-20 12:11:19,611 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 992 UCE loci for GW34166
+2024-11-20 12:11:19,611 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34166
+2024-11-20 12:11:27,227 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:11:27,229 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34170------------------
+2024-11-20 12:11:27,561 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 708 UCE loci for GW34170
+2024-11-20 12:11:27,561 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34170
+2024-11-20 12:11:46,398 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:11:46,399 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34171------------------
+2024-11-20 12:11:46,587 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 263 UCE loci for GW34171
+2024-11-20 12:11:46,587 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34171
+2024-11-20 12:12:33,767 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:12:33,768 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34172------------------
+2024-11-20 12:12:34,176 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 926 UCE loci for GW34172
+2024-11-20 12:12:34,177 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34172
+2024-11-20 12:12:42,472 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:12:42,474 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34173------------------
+2024-11-20 12:12:42,693 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 341 UCE loci for GW34173
+2024-11-20 12:12:42,693 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34173
+2024-11-20 12:13:18,694 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:13:18,696 - phyluce_assembly_get_fastas_from_match_counts - INFO - ------------------Getting UCE loci for GW34174_2-----------------
+2024-11-20 12:13:18,905 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 332 UCE loci for GW34174_2
+2024-11-20 12:13:18,905 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34174_2
+2024-11-20 12:14:30,570 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:14:30,573 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34175------------------
+2024-11-20 12:14:30,803 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 370 UCE loci for GW34175
+2024-11-20 12:14:30,803 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34175
+2024-11-20 12:14:47,475 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:14:47,476 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34176------------------
+2024-11-20 12:14:47,799 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 693 UCE loci for GW34176
+2024-11-20 12:14:47,799 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34176
+2024-11-20 12:15:04,948 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:15:04,949 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34178------------------
+2024-11-20 12:15:05,203 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 488 UCE loci for GW34178
+2024-11-20 12:15:05,203 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34178
+2024-11-20 12:15:20,492 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:15:20,493 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34179------------------
+2024-11-20 12:15:20,681 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 271 UCE loci for GW34179
+2024-11-20 12:15:20,681 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34179
+2024-11-20 12:15:49,242 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:15:49,243 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34180------------------
+2024-11-20 12:15:49,399 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 175 UCE loci for GW34180
+2024-11-20 12:15:49,399 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34180
+2024-11-20 12:16:14,241 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:16:14,242 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34181------------------
+2024-11-20 12:16:14,451 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 334 UCE loci for GW34181
+2024-11-20 12:16:14,451 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34181
+2024-11-20 12:16:30,813 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:16:30,815 - phyluce_assembly_get_fastas_from_match_counts - INFO - ------------------Getting UCE loci for GW34181_2-----------------
+2024-11-20 12:16:31,009 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 285 UCE loci for GW34181_2
+2024-11-20 12:16:31,009 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34181_2
+2024-11-20 12:16:57,875 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:16:57,877 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34184------------------
+2024-11-20 12:16:58,198 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 671 UCE loci for GW34184
+2024-11-20 12:16:58,199 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34184
+2024-11-20 12:17:10,428 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 1 contigs for GW34184
+2024-11-20 12:17:10,428 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:17:10,430 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34188------------------
+2024-11-20 12:17:10,740 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 647 UCE loci for GW34188
+2024-11-20 12:17:10,740 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34188
+2024-11-20 12:17:37,399 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:17:37,401 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34190------------------
+2024-11-20 12:17:37,596 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 295 UCE loci for GW34190
+2024-11-20 12:17:37,596 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34190
+2024-11-20 12:18:38,960 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:18:38,962 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34194------------------
+2024-11-20 12:18:39,113 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 156 UCE loci for GW34194
+2024-11-20 12:18:39,113 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34194
+2024-11-20 12:19:03,436 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:19:03,437 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34195------------------
+2024-11-20 12:19:03,628 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 290 UCE loci for GW34195
+2024-11-20 12:19:03,628 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34195
+2024-11-20 12:19:24,307 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:19:24,309 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34208------------------
+2024-11-20 12:19:24,545 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 422 UCE loci for GW34208
+2024-11-20 12:19:24,545 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34208
+2024-11-20 12:19:43,751 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:19:43,753 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34223------------------
+2024-11-20 12:19:44,140 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 878 UCE loci for GW34223
+2024-11-20 12:19:44,141 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34223
+2024-11-20 12:20:09,523 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:20:09,524 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34514------------------
+2024-11-20 12:20:09,878 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 787 UCE loci for GW34514
+2024-11-20 12:20:09,878 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34514
+2024-11-20 12:20:21,561 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:20:21,563 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34522------------------
+2024-11-20 12:20:21,751 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 266 UCE loci for GW34522
+2024-11-20 12:20:21,752 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34522
+2024-11-20 12:20:41,170 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:20:41,172 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34534------------------
+2024-11-20 12:20:41,320 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 149 UCE loci for GW34534
+2024-11-20 12:20:41,320 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34534
+2024-11-20 12:21:11,865 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:21:11,867 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34554------------------
+2024-11-20 12:21:12,250 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 858 UCE loci for GW34554
+2024-11-20 12:21:12,250 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34554
+2024-11-20 12:21:27,151 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:21:27,152 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34558------------------
+2024-11-20 12:21:27,310 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 170 UCE loci for GW34558
+2024-11-20 12:21:27,310 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34558
+2024-11-20 12:21:42,570 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:21:42,572 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34565------------------
+2024-11-20 12:21:42,761 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 270 UCE loci for GW34565
+2024-11-20 12:21:42,761 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34565
+2024-11-20 12:21:58,800 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:21:58,802 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34566------------------
+2024-11-20 12:21:59,068 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 492 UCE loci for GW34566
+2024-11-20 12:21:59,068 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34566
+2024-11-20 12:22:32,947 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:22:32,949 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34568------------------
+2024-11-20 12:22:33,281 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 712 UCE loci for GW34568
+2024-11-20 12:22:33,281 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34568
+2024-11-20 12:22:46,490 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:22:46,491 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34575------------------
+2024-11-20 12:22:46,669 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 240 UCE loci for GW34575
+2024-11-20 12:22:46,669 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34575
+2024-11-20 12:23:07,151 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:23:07,153 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34577------------------
+2024-11-20 12:23:07,262 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 33 UCE loci for GW34577
+2024-11-20 12:23:07,262 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34577
+2024-11-20 12:23:20,397 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:23:20,399 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34579------------------
+2024-11-20 12:23:20,660 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 478 UCE loci for GW34579
+2024-11-20 12:23:20,660 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34579
+2024-11-20 12:23:45,990 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:23:45,992 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34582------------------
+2024-11-20 12:23:46,236 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 440 UCE loci for GW34582
+2024-11-20 12:23:46,237 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34582
+2024-11-20 12:24:11,145 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:24:11,147 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34583------------------
+2024-11-20 12:24:11,328 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 257 UCE loci for GW34583
+2024-11-20 12:24:11,329 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34583
+2024-11-20 12:24:31,697 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:24:31,698 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34588------------------
+2024-11-20 12:24:32,085 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 879 UCE loci for GW34588
+2024-11-20 12:24:32,085 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34588
+2024-11-20 12:25:00,781 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:25:00,782 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34595------------------
+2024-11-20 12:25:00,997 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 349 UCE loci for GW34595
+2024-11-20 12:25:00,997 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34595
+2024-11-20 12:25:26,506 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:25:26,508 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34608------------------
+2024-11-20 12:25:26,630 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 69 UCE loci for GW34608
+2024-11-20 12:25:26,630 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34608
+2024-11-20 12:25:52,908 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:25:52,909 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34617------------------
+2024-11-20 12:25:53,120 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 336 UCE loci for GW34617
+2024-11-20 12:25:53,120 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34617
+2024-11-20 12:26:22,895 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:26:22,896 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34620------------------
+2024-11-20 12:26:23,044 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 141 UCE loci for GW34620
+2024-11-20 12:26:23,044 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34620
+2024-11-20 12:26:33,979 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:26:33,981 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34621------------------
+2024-11-20 12:26:34,153 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 230 UCE loci for GW34621
+2024-11-20 12:26:34,153 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34621
+2024-11-20 12:26:37,897 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:26:37,899 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34622------------------
+2024-11-20 12:26:38,093 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 297 UCE loci for GW34622
+2024-11-20 12:26:38,093 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34622
+2024-11-20 12:26:42,893 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:26:42,894 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34624------------------
+2024-11-20 12:26:43,084 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 280 UCE loci for GW34624
+2024-11-20 12:26:43,084 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34624
+2024-11-20 12:27:07,917 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:27:07,919 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34635------------------
+2024-11-20 12:27:08,178 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 495 UCE loci for GW34635
+2024-11-20 12:27:08,178 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34635
+2024-11-20 12:27:30,004 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:27:30,006 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34638------------------
+2024-11-20 12:27:30,459 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 1074 UCE loci for GW34638
+2024-11-20 12:27:30,459 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34638
+2024-11-20 12:27:40,086 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:27:40,087 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34639------------------
+2024-11-20 12:27:40,310 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 372 UCE loci for GW34639
+2024-11-20 12:27:40,310 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34639
+2024-11-20 12:27:59,006 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:27:59,008 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34644------------------
+2024-11-20 12:27:59,234 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 339 UCE loci for GW34644
+2024-11-20 12:27:59,234 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34644
+2024-11-20 12:28:03,874 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:28:03,876 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34645------------------
+2024-11-20 12:28:04,107 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 393 UCE loci for GW34645
+2024-11-20 12:28:04,107 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34645
+2024-11-20 12:29:02,685 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:29:02,686 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34695------------------
+2024-11-20 12:29:02,893 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 317 UCE loci for GW34695
+2024-11-20 12:29:02,893 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34695
+2024-11-20 12:29:47,178 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:29:47,179 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34736------------------
+2024-11-20 12:29:47,418 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 404 UCE loci for GW34736
+2024-11-20 12:29:47,418 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34736
+2024-11-20 12:30:11,408 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:30:11,409 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34737------------------
+2024-11-20 12:30:11,590 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 244 UCE loci for GW34737
+2024-11-20 12:30:11,590 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34737
+2024-11-20 12:30:46,665 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:30:46,666 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34738------------------
+2024-11-20 12:30:47,042 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 813 UCE loci for GW34738
+2024-11-20 12:30:47,042 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34738
+2024-11-20 12:30:57,773 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:30:57,775 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34749------------------
+2024-11-20 12:30:58,064 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 578 UCE loci for GW34749
+2024-11-20 12:30:58,064 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34749
+2024-11-20 12:31:29,433 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:31:29,434 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34759------------------
+2024-11-20 12:31:29,991 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 1394 UCE loci for GW34759
+2024-11-20 12:31:29,991 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34759
+2024-11-20 12:31:33,349 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:31:33,350 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34767------------------
+2024-11-20 12:31:33,629 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 546 UCE loci for GW34767
+2024-11-20 12:31:33,630 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34767
+2024-11-20 12:31:50,766 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:31:50,767 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34771------------------
+2024-11-20 12:31:50,897 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 90 UCE loci for GW34771
+2024-11-20 12:31:50,898 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34771
+2024-11-20 12:32:00,079 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:32:00,080 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34772------------------
+2024-11-20 12:32:00,273 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 279 UCE loci for GW34772
+2024-11-20 12:32:00,273 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34772
+2024-11-20 12:32:20,322 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:32:20,323 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34777------------------
+2024-11-20 12:32:20,728 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 926 UCE loci for GW34777
+2024-11-20 12:32:20,728 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34777
+2024-11-20 12:32:37,847 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:32:37,849 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34785------------------
+2024-11-20 12:32:38,078 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 385 UCE loci for GW34785
+2024-11-20 12:32:38,078 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34785
+2024-11-20 12:33:12,084 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:33:12,086 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34794------------------
+2024-11-20 12:33:12,246 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 149 UCE loci for GW34794
+2024-11-20 12:33:12,246 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34794
+2024-11-20 12:33:31,578 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:33:31,579 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34797------------------
+2024-11-20 12:33:31,965 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 855 UCE loci for GW34797
+2024-11-20 12:33:31,965 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34797
+2024-11-20 12:33:58,386 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:33:58,387 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34799------------------
+2024-11-20 12:33:58,559 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 213 UCE loci for GW34799
+2024-11-20 12:33:58,559 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34799
+2024-11-20 12:34:32,068 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:34:32,069 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34804------------------
+2024-11-20 12:34:32,191 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 57 UCE loci for GW34804
+2024-11-20 12:34:32,191 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34804
+2024-11-20 12:34:34,991 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:34:34,993 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW34808------------------
+2024-11-20 12:34:35,148 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 145 UCE loci for GW34808
+2024-11-20 12:34:35,148 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW34808
+2024-11-20 12:34:41,503 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 1 contigs for GW34808
+2024-11-20 12:34:41,503 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:34:41,505 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35158------------------
+2024-11-20 12:34:41,717 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 335 UCE loci for GW35158
+2024-11-20 12:34:41,717 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35158
+2024-11-20 12:35:05,676 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:35:05,678 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35159------------------
+2024-11-20 12:35:05,856 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 243 UCE loci for GW35159
+2024-11-20 12:35:05,856 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35159
+2024-11-20 12:35:45,685 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:35:45,687 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35160------------------
+2024-11-20 12:35:45,892 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 310 UCE loci for GW35160
+2024-11-20 12:35:45,893 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35160
+2024-11-20 12:37:10,495 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:37:10,497 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35161------------------
+2024-11-20 12:37:10,725 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 385 UCE loci for GW35161
+2024-11-20 12:37:10,725 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35161
+2024-11-20 12:37:35,109 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:37:35,111 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35162------------------
+2024-11-20 12:37:35,338 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 386 UCE loci for GW35162
+2024-11-20 12:37:35,338 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35162
+2024-11-20 12:38:07,474 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:38:07,475 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35164------------------
+2024-11-20 12:38:07,704 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 385 UCE loci for GW35164
+2024-11-20 12:38:07,704 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35164
+2024-11-20 12:38:26,906 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:38:26,908 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35165------------------
+2024-11-20 12:38:27,099 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 281 UCE loci for GW35165
+2024-11-20 12:38:27,099 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35165
+2024-11-20 12:38:45,762 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:38:45,763 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35166------------------
+2024-11-20 12:38:45,956 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 280 UCE loci for GW35166
+2024-11-20 12:38:45,956 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35166
+2024-11-20 12:39:13,946 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:39:13,947 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35167------------------
+2024-11-20 12:39:14,162 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 345 UCE loci for GW35167
+2024-11-20 12:39:14,162 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35167
+2024-11-20 12:39:45,272 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:39:45,274 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35168------------------
+2024-11-20 12:39:45,480 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 319 UCE loci for GW35168
+2024-11-20 12:39:45,480 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35168
+2024-11-20 12:40:25,115 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:40:25,116 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35169------------------
+2024-11-20 12:40:25,329 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 326 UCE loci for GW35169
+2024-11-20 12:40:25,329 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35169
+2024-11-20 12:40:54,650 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:40:54,651 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35170------------------
+2024-11-20 12:40:54,880 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 376 UCE loci for GW35170
+2024-11-20 12:40:54,880 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35170
+2024-11-20 12:42:16,164 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:42:16,166 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35171------------------
+2024-11-20 12:42:16,365 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 283 UCE loci for GW35171
+2024-11-20 12:42:16,365 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35171
+2024-11-20 12:42:51,745 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:42:51,747 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35173------------------
+2024-11-20 12:42:51,932 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 253 UCE loci for GW35173
+2024-11-20 12:42:51,932 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35173
+2024-11-20 12:43:37,523 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:43:37,524 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35174------------------
+2024-11-20 12:43:37,711 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 256 UCE loci for GW35174
+2024-11-20 12:43:37,711 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35174
+2024-11-20 12:44:20,962 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:44:20,964 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35175------------------
+2024-11-20 12:44:21,150 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 244 UCE loci for GW35175
+2024-11-20 12:44:21,150 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35175
+2024-11-20 12:44:51,625 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:44:51,627 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35176------------------
+2024-11-20 12:44:51,846 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 349 UCE loci for GW35176
+2024-11-20 12:44:51,846 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35176
+2024-11-20 12:45:27,726 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:45:27,728 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35177------------------
+2024-11-20 12:45:27,986 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 442 UCE loci for GW35177
+2024-11-20 12:45:27,986 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35177
+2024-11-20 12:45:58,461 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:45:58,463 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35178------------------
+2024-11-20 12:45:58,620 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 160 UCE loci for GW35178
+2024-11-20 12:45:58,620 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35178
+2024-11-20 12:46:17,076 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:46:17,078 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35179------------------
+2024-11-20 12:46:17,222 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 127 UCE loci for GW35179
+2024-11-20 12:46:17,222 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35179
+2024-11-20 12:47:46,719 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:47:46,721 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35180------------------
+2024-11-20 12:47:47,037 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 646 UCE loci for GW35180
+2024-11-20 12:47:47,037 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35180
+2024-11-20 12:48:09,918 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:48:09,920 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35182------------------
+2024-11-20 12:48:10,156 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 413 UCE loci for GW35182
+2024-11-20 12:48:10,156 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35182
+2024-11-20 12:49:10,267 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:49:10,268 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35183------------------
+2024-11-20 12:49:10,463 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 290 UCE loci for GW35183
+2024-11-20 12:49:10,463 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35183
+2024-11-20 12:50:27,410 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:50:27,412 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35185------------------
+2024-11-20 12:50:27,612 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 306 UCE loci for GW35185
+2024-11-20 12:50:27,612 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35185
+2024-11-20 12:50:34,169 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:50:34,171 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35186------------------
+2024-11-20 12:50:34,591 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 969 UCE loci for GW35186
+2024-11-20 12:50:34,592 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35186
+2024-11-20 12:50:46,009 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:50:46,011 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35195------------------
+2024-11-20 12:50:46,272 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 486 UCE loci for GW35195
+2024-11-20 12:50:46,273 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35195
+2024-11-20 12:51:07,911 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:51:07,912 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35197------------------
+2024-11-20 12:51:08,120 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 306 UCE loci for GW35197
+2024-11-20 12:51:08,120 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35197
+2024-11-20 12:51:40,857 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:51:40,858 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35200------------------
+2024-11-20 12:51:41,018 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 173 UCE loci for GW35200
+2024-11-20 12:51:41,018 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35200
+2024-11-20 12:52:06,726 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:52:06,727 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35201------------------
+2024-11-20 12:52:06,948 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 361 UCE loci for GW35201
+2024-11-20 12:52:06,948 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35201
+2024-11-20 12:52:35,904 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:52:35,905 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35202------------------
+2024-11-20 12:52:36,112 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 316 UCE loci for GW35202
+2024-11-20 12:52:36,112 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35202
+2024-11-20 12:52:51,700 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:52:51,701 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35203------------------
+2024-11-20 12:52:52,084 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 850 UCE loci for GW35203
+2024-11-20 12:52:52,084 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35203
+2024-11-20 12:53:10,931 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:53:10,933 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35206------------------
+2024-11-20 12:53:11,184 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 458 UCE loci for GW35206
+2024-11-20 12:53:11,184 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35206
+2024-11-20 12:53:17,194 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:53:17,195 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35209------------------
+2024-11-20 12:53:17,463 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 493 UCE loci for GW35209
+2024-11-20 12:53:17,463 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35209
+2024-11-20 12:53:41,723 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:53:41,724 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35210------------------
+2024-11-20 12:53:41,904 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 228 UCE loci for GW35210
+2024-11-20 12:53:41,904 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35210
+2024-11-20 12:54:13,227 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:54:13,228 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35211------------------
+2024-11-20 12:54:13,437 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 330 UCE loci for GW35211
+2024-11-20 12:54:13,437 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35211
+2024-11-20 12:54:38,100 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:54:38,102 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW35213------------------
+2024-11-20 12:54:38,303 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 294 UCE loci for GW35213
+2024-11-20 12:54:38,303 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW35213
+2024-11-20 12:55:06,750 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:55:06,751 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW4146-------------------
+2024-11-20 12:55:07,141 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 869 UCE loci for GW4146
+2024-11-20 12:55:07,142 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW4146
+2024-11-20 12:55:32,330 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:55:32,331 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW4148-------------------
+2024-11-20 12:55:32,731 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 852 UCE loci for GW4148
+2024-11-20 12:55:32,731 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW4148
+2024-11-20 12:56:23,317 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:56:23,318 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW4191-------------------
+2024-11-20 12:56:23,509 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 269 UCE loci for GW4191
+2024-11-20 12:56:23,509 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW4191
+2024-11-20 12:57:01,961 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:57:01,962 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW4226-------------------
+2024-11-20 12:57:02,204 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 428 UCE loci for GW4226
+2024-11-20 12:57:02,204 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW4226
+2024-11-20 12:57:25,681 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:57:25,683 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW4246-------------------
+2024-11-20 12:57:26,062 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 870 UCE loci for GW4246
+2024-11-20 12:57:26,062 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW4246
+2024-11-20 12:57:31,383 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:57:31,384 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW4285-------------------
+2024-11-20 12:57:31,791 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 929 UCE loci for GW4285
+2024-11-20 12:57:31,791 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW4285
+2024-11-20 12:57:42,975 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:57:42,977 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW4374-------------------
+2024-11-20 12:57:43,183 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 322 UCE loci for GW4374
+2024-11-20 12:57:43,184 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW4374
+2024-11-20 12:57:50,410 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:57:50,411 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW4433-------------------
+2024-11-20 12:57:50,893 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 1158 UCE loci for GW4433
+2024-11-20 12:57:50,893 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW4433
+2024-11-20 12:57:56,804 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:57:56,805 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW4436-------------------
+2024-11-20 12:57:57,203 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 893 UCE loci for GW4436
+2024-11-20 12:57:57,203 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW4436
+2024-11-20 12:58:02,373 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:58:02,374 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW4507-------------------
+2024-11-20 12:58:02,764 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 878 UCE loci for GW4507
+2024-11-20 12:58:02,764 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW4507
+2024-11-20 12:58:08,431 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:58:08,433 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW5878-------------------
+2024-11-20 12:58:08,678 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 442 UCE loci for GW5878
+2024-11-20 12:58:08,678 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW5878
+2024-11-20 12:58:15,571 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:58:15,572 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW5894-------------------
+2024-11-20 12:58:15,913 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 698 UCE loci for GW5894
+2024-11-20 12:58:15,913 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW5894
+2024-11-20 12:59:03,436 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:59:03,438 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW5936-------------------
+2024-11-20 12:59:03,805 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 810 UCE loci for GW5936
+2024-11-20 12:59:03,805 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW5936
+2024-11-20 12:59:08,448 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 1 contigs for GW5936
+2024-11-20 12:59:08,448 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:59:08,450 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW5998-------------------
+2024-11-20 12:59:08,752 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 616 UCE loci for GW5998
+2024-11-20 12:59:08,752 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW5998
+2024-11-20 12:59:14,777 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:59:14,779 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW6015-------------------
+2024-11-20 12:59:14,972 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 288 UCE loci for GW6015
+2024-11-20 12:59:14,973 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW6015
+2024-11-20 12:59:23,029 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:59:23,031 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW6018-------------------
+2024-11-20 12:59:23,414 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 875 UCE loci for GW6018
+2024-11-20 12:59:23,414 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW6018
+2024-11-20 12:59:28,664 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:59:28,666 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW6059-------------------
+2024-11-20 12:59:29,036 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 821 UCE loci for GW6059
+2024-11-20 12:59:29,036 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW6059
+2024-11-20 12:59:35,324 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 12:59:35,325 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW6114-------------------
+2024-11-20 12:59:35,663 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 738 UCE loci for GW6114
+2024-11-20 12:59:35,663 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW6114
+2024-11-20 13:00:13,974 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 1 contigs for GW6114
+2024-11-20 13:00:13,975 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:00:13,976 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for GW6134-------------------
+2024-11-20 13:00:14,446 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 1140 UCE loci for GW6134
+2024-11-20 13:00:14,446 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for GW6134
+2024-11-20 13:00:50,878 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:00:50,879 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for HAMB--------------------
+2024-11-20 13:00:51,092 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 340 UCE loci for HAMB
+2024-11-20 13:00:51,092 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for HAMB
+2024-11-20 13:01:29,687 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 10 contigs for HAMB
+2024-11-20 13:01:29,687 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:01:29,688 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for HCIN--------------------
+2024-11-20 13:01:30,044 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 761 UCE loci for HCIN
+2024-11-20 13:01:30,044 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for HCIN
+2024-11-20 13:01:51,140 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 22 contigs for HCIN
+2024-11-20 13:01:51,141 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:01:51,142 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for HIND--------------------
+2024-11-20 13:01:51,446 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 627 UCE loci for HIND
+2024-11-20 13:01:51,446 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for HIND
+2024-11-20 13:02:06,402 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 26 contigs for HIND
+2024-11-20 13:02:06,402 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:02:06,403 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for HOCU--------------------
+2024-11-20 13:02:06,727 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 692 UCE loci for HOCU
+2024-11-20 13:02:06,728 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for HOCU
+2024-11-20 13:02:29,613 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 19 contigs for HOCU
+2024-11-20 13:02:29,614 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:02:29,615 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for HSIM--------------------
+2024-11-20 13:02:29,975 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 798 UCE loci for HSIM
+2024-11-20 13:02:29,975 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for HSIM
+2024-11-20 13:02:48,052 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 10 contigs for HSIM
+2024-11-20 13:02:48,053 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:02:48,054 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for HTUB--------------------
+2024-11-20 13:02:48,333 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 533 UCE loci for HTUB
+2024-11-20 13:02:48,334 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for HTUB
+2024-11-20 13:03:19,967 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 43 contigs for HTUB
+2024-11-20 13:03:19,968 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:03:19,969 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for HVIS--------------------
+2024-11-20 13:03:20,300 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 703 UCE loci for HVIS
+2024-11-20 13:03:20,300 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for HVIS
+2024-11-20 13:03:35,474 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 29 contigs for HVIS
+2024-11-20 13:03:35,474 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:03:35,475 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for LAPI--------------------
+2024-11-20 13:03:35,625 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 137 UCE loci for LAPI
+2024-11-20 13:03:35,625 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for LAPI
+2024-11-20 13:03:42,486 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 7 contigs for LAPI
+2024-11-20 13:03:42,486 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:03:42,488 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for LCHO--------------------
+2024-11-20 13:03:42,626 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 115 UCE loci for LCHO
+2024-11-20 13:03:42,626 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for LCHO
+2024-11-20 13:03:55,301 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 1 contigs for LCHO
+2024-11-20 13:03:55,301 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:03:55,302 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for NCOM--------------------
+2024-11-20 13:03:55,608 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 627 UCE loci for NCOM
+2024-11-20 13:03:55,608 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for NCOM
+2024-11-20 13:05:06,405 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 42 contigs for NCOM
+2024-11-20 13:05:06,405 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:05:06,406 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for PFIC--------------------
+2024-11-20 13:05:11,585 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 359 UCE loci for PFIC
+2024-11-20 13:05:11,585 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for PFIC
+2024-11-20 13:05:30,569 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 18 contigs for PFIC
+2024-11-20 13:05:30,570 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:05:30,571 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for SCSP--------------------
+2024-11-20 13:05:36,284 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 159 UCE loci for SCSP
+2024-11-20 13:05:36,284 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for SCSP
+2024-11-20 13:05:54,373 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 7 contigs for SCSP
+2024-11-20 13:05:54,373 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:05:54,375 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for SOFF--------------------
+2024-11-20 13:05:59,449 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 136 UCE loci for SOFF
+2024-11-20 13:05:59,449 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for SOFF
+2024-11-20 13:07:51,304 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 2 contigs for SOFF
+2024-11-20 13:07:51,305 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:07:51,306 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for TWIL--------------------
+2024-11-20 13:07:51,463 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 171 UCE loci for TWIL
+2024-11-20 13:07:51,463 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for TWIL
+2024-11-20 13:08:10,113 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 4 contigs for TWIL
+2024-11-20 13:08:10,113 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:08:10,114 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------------Getting UCE loci for XTES--------------------
+2024-11-20 13:08:10,288 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 234 UCE loci for XTES
+2024-11-20 13:08:10,288 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for XTES
+2024-11-20 13:09:35,327 - phyluce_assembly_get_fastas_from_match_counts - INFO - Replaced <20 ambiguous bases (N) in 11 contigs for XTES
+2024-11-20 13:09:35,328 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.incomplete
+2024-11-20 13:09:35,331 - phyluce_assembly_get_fastas_from_match_counts - INFO - ==== Completed phyluce_assembly_get_fastas_from_match_counts ====

@@ -1,0 +1,70 @@
+2024-11-21 13:02:47,905 - phyluce_align_get_only_loci_with_min_taxa - INFO - ======= Starting phyluce_align_get_only_loci_with_min_taxa ======
+2024-11-21 13:02:47,905 - phyluce_align_get_only_loci_with_min_taxa - INFO - Version: 1.7.1
+2024-11-21 13:02:47,905 - phyluce_align_get_only_loci_with_min_taxa - INFO - Commit: None
+2024-11-21 13:02:47,906 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --alignments: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks-clean
+2024-11-21 13:02:47,906 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --cores: 4
+2024-11-21 13:02:47,906 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --input_format: nexus
+2024-11-21 13:02:47,906 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --log_path: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/log
+2024-11-21 13:02:47,906 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --output: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks-clean-15p
+2024-11-21 13:02:47,906 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --percent: 0.15
+2024-11-21 13:02:47,906 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --taxa: 199
+2024-11-21 13:02:47,906 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --verbosity: INFO
+2024-11-21 13:02:47,906 - phyluce_align_get_only_loci_with_min_taxa - INFO - Getting alignment files
+2024-11-21 13:02:53,989 - phyluce_align_get_only_loci_with_min_taxa - INFO - Copied 1269 alignments of 2882 total containing ≥ 0.15 proportion of taxa (n = 29)
+2024-11-21 13:02:53,991 - phyluce_align_get_only_loci_with_min_taxa - INFO - ====== Completed phyluce_align_get_only_loci_with_min_taxa ======
+2024-11-21 13:03:16,421 - phyluce_align_get_only_loci_with_min_taxa - INFO - ======= Starting phyluce_align_get_only_loci_with_min_taxa ======
+2024-11-21 13:03:16,421 - phyluce_align_get_only_loci_with_min_taxa - INFO - Version: 1.7.1
+2024-11-21 13:03:16,421 - phyluce_align_get_only_loci_with_min_taxa - INFO - Commit: None
+2024-11-21 13:03:16,422 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --alignments: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks-clean
+2024-11-21 13:03:16,422 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --cores: 4
+2024-11-21 13:03:16,422 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --input_format: nexus
+2024-11-21 13:03:16,422 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --log_path: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/log
+2024-11-21 13:03:16,422 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --output: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks-clean-20p
+2024-11-21 13:03:16,422 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --percent: 0.2
+2024-11-21 13:03:16,422 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --taxa: 199
+2024-11-21 13:03:16,422 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --verbosity: INFO
+2024-11-21 13:03:16,422 - phyluce_align_get_only_loci_with_min_taxa - INFO - Getting alignment files
+2024-11-21 13:03:20,368 - phyluce_align_get_only_loci_with_min_taxa - INFO - Copied 840 alignments of 2882 total containing ≥ 0.2 proportion of taxa (n = 39)
+2024-11-21 13:03:20,369 - phyluce_align_get_only_loci_with_min_taxa - INFO - ====== Completed phyluce_align_get_only_loci_with_min_taxa ======
+2024-11-21 13:03:30,441 - phyluce_align_get_only_loci_with_min_taxa - INFO - ======= Starting phyluce_align_get_only_loci_with_min_taxa ======
+2024-11-21 13:03:30,441 - phyluce_align_get_only_loci_with_min_taxa - INFO - Version: 1.7.1
+2024-11-21 13:03:30,442 - phyluce_align_get_only_loci_with_min_taxa - INFO - Commit: None
+2024-11-21 13:03:30,442 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --alignments: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks-clean
+2024-11-21 13:03:30,442 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --cores: 4
+2024-11-21 13:03:30,442 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --input_format: nexus
+2024-11-21 13:03:30,442 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --log_path: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/log
+2024-11-21 13:03:30,442 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --output: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks-clean-25p
+2024-11-21 13:03:30,442 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --percent: 0.25
+2024-11-21 13:03:30,442 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --taxa: 199
+2024-11-21 13:03:30,442 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --verbosity: INFO
+2024-11-21 13:03:30,442 - phyluce_align_get_only_loci_with_min_taxa - INFO - Getting alignment files
+2024-11-21 13:03:33,925 - phyluce_align_get_only_loci_with_min_taxa - INFO - Copied 530 alignments of 2882 total containing ≥ 0.25 proportion of taxa (n = 49)
+2024-11-21 13:03:33,926 - phyluce_align_get_only_loci_with_min_taxa - INFO - ====== Completed phyluce_align_get_only_loci_with_min_taxa ======
+2024-11-21 13:03:45,598 - phyluce_align_get_only_loci_with_min_taxa - INFO - ======= Starting phyluce_align_get_only_loci_with_min_taxa ======
+2024-11-21 13:03:45,598 - phyluce_align_get_only_loci_with_min_taxa - INFO - Version: 1.7.1
+2024-11-21 13:03:45,598 - phyluce_align_get_only_loci_with_min_taxa - INFO - Commit: None
+2024-11-21 13:03:45,598 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --alignments: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks-clean
+2024-11-21 13:03:45,598 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --cores: 4
+2024-11-21 13:03:45,598 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --input_format: nexus
+2024-11-21 13:03:45,598 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --log_path: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/log
+2024-11-21 13:03:45,598 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --output: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks-clean-30p
+2024-11-21 13:03:45,598 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --percent: 0.3
+2024-11-21 13:03:45,598 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --taxa: 199
+2024-11-21 13:03:45,598 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --verbosity: INFO
+2024-11-21 13:03:45,598 - phyluce_align_get_only_loci_with_min_taxa - INFO - Getting alignment files
+2024-11-21 13:03:48,770 - phyluce_align_get_only_loci_with_min_taxa - INFO - Copied 350 alignments of 2882 total containing ≥ 0.3 proportion of taxa (n = 59)
+2024-11-21 13:03:48,771 - phyluce_align_get_only_loci_with_min_taxa - INFO - ====== Completed phyluce_align_get_only_loci_with_min_taxa ======
+2024-11-21 13:03:59,665 - phyluce_align_get_only_loci_with_min_taxa - INFO - ======= Starting phyluce_align_get_only_loci_with_min_taxa ======
+2024-11-21 13:03:59,666 - phyluce_align_get_only_loci_with_min_taxa - INFO - Version: 1.7.1
+2024-11-21 13:03:59,666 - phyluce_align_get_only_loci_with_min_taxa - INFO - Commit: None
+2024-11-21 13:03:59,666 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --alignments: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks-clean
+2024-11-21 13:03:59,667 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --cores: 4
+2024-11-21 13:03:59,667 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --input_format: nexus
+2024-11-21 13:03:59,667 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --log_path: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/log
+2024-11-21 13:03:59,667 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --output: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks-clean-35p
+2024-11-21 13:03:59,667 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --percent: 0.35
+2024-11-21 13:03:59,668 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --taxa: 199
+2024-11-21 13:03:59,668 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --verbosity: INFO
+2024-11-21 13:03:59,668 - phyluce_align_get_only_loci_with_min_taxa - INFO - Getting alignment files
+2024-11-21 13:04:02,756 - phyluce_align_get_only_loci_with_min_taxa - INFO - Copied 201 alignments of 2882 total containing ≥ 0.35 proportion of taxa (n = 69)
+2024-11-21 13:04:02,757 - phyluce_align_get_only_loci_with_min_taxa - INFO - ====== Completed phyluce_align_get_only_loci_with_min_taxa ======

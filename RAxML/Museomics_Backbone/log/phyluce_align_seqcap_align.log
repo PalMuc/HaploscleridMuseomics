@@ -1,0 +1,1058 @@
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - ============== Starting phyluce_align_seqcap_align ==============
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Version: 1.7.1
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Commit: None
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --aligner: mafft
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --ambiguous: False
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --cores: 12
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --input: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.fasta
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --log_path: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/log
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --max_divergence: 0.2
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --min_length: 100
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --no_trim: False
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --notstrict: True
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --output: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/mafft-nexus-edge-trimmed
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --output_format: nexus
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --proportion: 0.65
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --taxa: 199
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --threshold: 0.65
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --verbosity: INFO
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Argument --window: 20
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Building the locus dictionary
+2024-11-20 15:56:53,112 - phyluce_align_seqcap_align - INFO - Removing ALL sequences with ambiguous bases...
+2024-11-20 15:56:57,907 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-118000853. Too few taxa (N < 3).
+2024-11-20 15:56:57,908 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-68000852. Too few taxa (N < 3).
+2024-11-20 15:56:57,908 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-108000783. Too few taxa (N < 3).
+2024-11-20 15:56:57,908 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-580001237. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180004. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680001828. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680001457. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-9700020. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680001879. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-118000376. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1080002581. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-570002222. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1080002203. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-980001264. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-128000248. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-68000409. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-12800056. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-11800078. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1170002577. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680001349. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680001264. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-118000574. Too few taxa (N < 3).
+2024-11-20 15:56:57,909 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-56000441. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680002111. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180002909. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180002098. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680001373. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-540002133. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180001411. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-58000677. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-118000481. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180001045. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-118000675. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180001298. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-10800013. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180002769. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-880002406. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180002557. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-860001024. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-88000146. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-780001928. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1280001111. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-880002140. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-108000357. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180002245. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-11800031. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-68000946. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-128000479. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-880001755. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1270001915. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-580001580. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1080002379. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-11800096. Too few taxa (N < 3).
+2024-11-20 15:56:57,910 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-880001620. Too few taxa (N < 3).
+2024-11-20 15:56:58,002 - phyluce_align_seqcap_align - INFO - Aligning with MAFFT
+2024-11-20 15:56:58,003 - phyluce_align_seqcap_align - INFO - Alignment begins. 'X' indicates dropped alignments (these are reported after alignment)
+2024-11-20 16:48:51,320 - phyluce_align_seqcap_align - INFO - Alignment ends
+2024-11-20 16:48:51,321 - phyluce_align_seqcap_align - INFO - Writing output files
+2024-11-20 16:48:51,330 - phyluce_align_seqcap_align - WARNING - DROPPED uce-5600010 from output
+2024-11-20 16:48:51,333 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001916 from output
+2024-11-20 16:48:51,342 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002730 from output
+2024-11-20 16:48:51,342 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000171 from output
+2024-11-20 16:48:51,342 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000818 from output
+2024-11-20 16:48:51,345 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780002052 from output
+2024-11-20 16:48:51,345 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000275 from output
+2024-11-20 16:48:51,345 - phyluce_align_seqcap_align - WARNING - DROPPED uce-770001364 from output
+2024-11-20 16:48:51,349 - phyluce_align_seqcap_align - WARNING - DROPPED uce-116000671 from output
+2024-11-20 16:48:51,349 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2410001325 from output
+2024-11-20 16:48:51,351 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1250001334 from output
+2024-11-20 16:48:51,352 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001793 from output
+2024-11-20 16:48:51,353 - phyluce_align_seqcap_align - WARNING - DROPPED uce-128000534 from output
+2024-11-20 16:48:51,353 - phyluce_align_seqcap_align - WARNING - DROPPED uce-960001379 from output
+2024-11-20 16:48:51,359 - phyluce_align_seqcap_align - WARNING - DROPPED uce-670001121 from output
+2024-11-20 16:48:51,360 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180003173 from output
+2024-11-20 16:48:51,360 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001725 from output
+2024-11-20 16:48:51,377 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001369 from output
+2024-11-20 16:48:51,379 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1040002244 from output
+2024-11-20 16:48:51,383 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000916 from output
+2024-11-20 16:48:51,383 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000939 from output
+2024-11-20 16:48:51,386 - phyluce_align_seqcap_align - WARNING - DROPPED uce-840002304 from output
+2024-11-20 16:48:51,386 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2140001012 from output
+2024-11-20 16:48:51,386 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000381 from output
+2024-11-20 16:48:51,386 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1070002435 from output
+2024-11-20 16:48:51,386 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002043 from output
+2024-11-20 16:48:51,386 - phyluce_align_seqcap_align - WARNING - DROPPED uce-87000204 from output
+2024-11-20 16:48:51,389 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001399 from output
+2024-11-20 16:48:51,389 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000882 from output
+2024-11-20 16:48:51,398 - phyluce_align_seqcap_align - WARNING - DROPPED uce-76000787 from output
+2024-11-20 16:48:51,404 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000356 from output
+2024-11-20 16:48:51,409 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001163 from output
+2024-11-20 16:48:51,420 - phyluce_align_seqcap_align - WARNING - DROPPED uce-114000814 from output
+2024-11-20 16:48:51,427 - phyluce_align_seqcap_align - WARNING - DROPPED uce-116000350 from output
+2024-11-20 16:48:51,431 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002877 from output
+2024-11-20 16:48:51,435 - phyluce_align_seqcap_align - WARNING - DROPPED uce-850001238 from output
+2024-11-20 16:48:51,436 - phyluce_align_seqcap_align - WARNING - DROPPED uce-67000584 from output
+2024-11-20 16:48:51,439 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001532 from output
+2024-11-20 16:48:51,440 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001160 from output
+2024-11-20 16:48:51,440 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002179 from output
+2024-11-20 16:48:51,445 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002269 from output
+2024-11-20 16:48:51,446 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001132 from output
+2024-11-20 16:48:51,452 - phyluce_align_seqcap_align - WARNING - DROPPED uce-96000618 from output
+2024-11-20 16:48:51,454 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060002524 from output
+2024-11-20 16:48:51,456 - phyluce_align_seqcap_align - WARNING - DROPPED uce-76000793 from output
+2024-11-20 16:48:51,460 - phyluce_align_seqcap_align - WARNING - DROPPED uce-216000261 from output
+2024-11-20 16:48:51,460 - phyluce_align_seqcap_align - WARNING - DROPPED uce-87000879 from output
+2024-11-20 16:48:51,465 - phyluce_align_seqcap_align - WARNING - DROPPED uce-56000538 from output
+2024-11-20 16:48:51,466 - phyluce_align_seqcap_align - WARNING - DROPPED uce-127000857 from output
+2024-11-20 16:48:51,467 - phyluce_align_seqcap_align - WARNING - DROPPED uce-255000180 from output
+2024-11-20 16:48:51,468 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001828 from output
+2024-11-20 16:48:51,468 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001073 from output
+2024-11-20 16:48:51,469 - phyluce_align_seqcap_align - WARNING - DROPPED uce-6700071 from output
+2024-11-20 16:48:51,469 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001220 from output
+2024-11-20 16:48:51,470 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001811 from output
+2024-11-20 16:48:51,471 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780002050 from output
+2024-11-20 16:48:51,473 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000520 from output
+2024-11-20 16:48:51,473 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1050002383 from output
+2024-11-20 16:48:51,478 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060002576 from output
+2024-11-20 16:48:51,479 - phyluce_align_seqcap_align - WARNING - DROPPED uce-950001226 from output
+2024-11-20 16:48:51,479 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000846 from output
+2024-11-20 16:48:51,482 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000123 from output
+2024-11-20 16:48:51,483 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002246 from output
+2024-11-20 16:48:51,485 - phyluce_align_seqcap_align - WARNING - DROPPED uce-6800052 from output
+2024-11-20 16:48:51,491 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000587 from output
+2024-11-20 16:48:51,491 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1270001779 from output
+2024-11-20 16:48:51,491 - phyluce_align_seqcap_align - WARNING - DROPPED uce-242000158 from output
+2024-11-20 16:48:51,493 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000593 from output
+2024-11-20 16:48:51,493 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000685 from output
+2024-11-20 16:48:51,494 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002416 from output
+2024-11-20 16:48:51,494 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000683 from output
+2024-11-20 16:48:51,503 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000656 from output
+2024-11-20 16:48:51,506 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1040001185 from output
+2024-11-20 16:48:51,512 - phyluce_align_seqcap_align - WARNING - DROPPED uce-221000117 from output
+2024-11-20 16:48:51,524 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002396 from output
+2024-11-20 16:48:51,524 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001317 from output
+2024-11-20 16:48:51,524 - phyluce_align_seqcap_align - WARNING - DROPPED uce-128000638 from output
+2024-11-20 16:48:51,530 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1170002105 from output
+2024-11-20 16:48:51,533 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000666 from output
+2024-11-20 16:48:51,535 - phyluce_align_seqcap_align - WARNING - DROPPED uce-56000822 from output
+2024-11-20 16:48:51,535 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000754 from output
+2024-11-20 16:48:51,535 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000369 from output
+2024-11-20 16:48:51,539 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000275 from output
+2024-11-20 16:48:51,542 - phyluce_align_seqcap_align - WARNING - DROPPED uce-940001554 from output
+2024-11-20 16:48:51,544 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1160002467 from output
+2024-11-20 16:48:51,544 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001415 from output
+2024-11-20 16:48:51,544 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001823 from output
+2024-11-20 16:48:51,544 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1160003002 from output
+2024-11-20 16:48:51,547 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001387 from output
+2024-11-20 16:48:51,547 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000128 from output
+2024-11-20 16:48:51,547 - phyluce_align_seqcap_align - WARNING - DROPPED uce-9800023 from output
+2024-11-20 16:48:51,551 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000720 from output
+2024-11-20 16:48:51,551 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1250001108 from output
+2024-11-20 16:48:51,551 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001616 from output
+2024-11-20 16:48:51,558 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000669 from output
+2024-11-20 16:48:51,558 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1260001068 from output
+2024-11-20 16:48:51,564 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001554 from output
+2024-11-20 16:48:51,566 - phyluce_align_seqcap_align - WARNING - DROPPED uce-203000775 from output
+2024-11-20 16:48:51,568 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000421 from output
+2024-11-20 16:48:51,572 - phyluce_align_seqcap_align - WARNING - DROPPED uce-570001052 from output
+2024-11-20 16:48:51,572 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001548 from output
+2024-11-20 16:48:51,572 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000198 from output
+2024-11-20 16:48:51,575 - phyluce_align_seqcap_align - WARNING - DROPPED uce-10500015 from output
+2024-11-20 16:48:51,580 - phyluce_align_seqcap_align - WARNING - DROPPED uce-75000451 from output
+2024-11-20 16:48:51,580 - phyluce_align_seqcap_align - WARNING - DROPPED uce-67000923 from output
+2024-11-20 16:48:51,583 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000403 from output
+2024-11-20 16:48:51,586 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002727 from output
+2024-11-20 16:48:51,586 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001785 from output
+2024-11-20 16:48:51,587 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000415 from output
+2024-11-20 16:48:51,589 - phyluce_align_seqcap_align - WARNING - DROPPED uce-910001478 from output
+2024-11-20 16:48:51,599 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000889 from output
+2024-11-20 16:48:51,599 - phyluce_align_seqcap_align - WARNING - DROPPED uce-95000670 from output
+2024-11-20 16:48:51,599 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1160001000 from output
+2024-11-20 16:48:51,599 - phyluce_align_seqcap_align - WARNING - DROPPED uce-76000773 from output
+2024-11-20 16:48:51,601 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001197 from output
+2024-11-20 16:48:51,618 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002589 from output
+2024-11-20 16:48:51,618 - phyluce_align_seqcap_align - WARNING - DROPPED uce-91000767 from output
+2024-11-20 16:48:51,618 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180003215 from output
+2024-11-20 16:48:51,619 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880002012 from output
+2024-11-20 16:48:51,621 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1240001873 from output
+2024-11-20 16:48:51,625 - phyluce_align_seqcap_align - WARNING - DROPPED uce-101000720 from output
+2024-11-20 16:48:51,625 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001293 from output
+2024-11-20 16:48:51,625 - phyluce_align_seqcap_align - WARNING - DROPPED uce-278000538 from output
+2024-11-20 16:48:51,629 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001012 from output
+2024-11-20 16:48:51,630 - phyluce_align_seqcap_align - WARNING - DROPPED uce-96000565 from output
+2024-11-20 16:48:51,631 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001648 from output
+2024-11-20 16:48:51,631 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1240001520 from output
+2024-11-20 16:48:51,648 - phyluce_align_seqcap_align - WARNING - DROPPED uce-125000364 from output
+2024-11-20 16:48:51,675 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001406 from output
+2024-11-20 16:48:51,675 - phyluce_align_seqcap_align - WARNING - DROPPED uce-235000687 from output
+2024-11-20 16:48:51,675 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002466 from output
+2024-11-20 16:48:51,681 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001428 from output
+2024-11-20 16:48:51,689 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1160002300 from output
+2024-11-20 16:48:51,689 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880002253 from output
+2024-11-20 16:48:51,690 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001588 from output
+2024-11-20 16:48:51,696 - phyluce_align_seqcap_align - WARNING - DROPPED uce-650001390 from output
+2024-11-20 16:48:51,704 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1170002583 from output
+2024-11-20 16:48:51,704 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001773 from output
+2024-11-20 16:48:51,705 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780002527 from output
+2024-11-20 16:48:51,705 - phyluce_align_seqcap_align - WARNING - DROPPED uce-28400095 from output
+2024-11-20 16:48:51,705 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000865 from output
+2024-11-20 16:48:51,708 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180003067 from output
+2024-11-20 16:48:51,709 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001342 from output
+2024-11-20 16:48:51,712 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001515 from output
+2024-11-20 16:48:51,715 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1170001174 from output
+2024-11-20 16:48:51,726 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001703 from output
+2024-11-20 16:48:51,726 - phyluce_align_seqcap_align - WARNING - DROPPED uce-850001706 from output
+2024-11-20 16:48:51,731 - phyluce_align_seqcap_align - WARNING - DROPPED uce-96000723 from output
+2024-11-20 16:48:51,739 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2240001419 from output
+2024-11-20 16:48:51,746 - phyluce_align_seqcap_align - WARNING - DROPPED uce-105000692 from output
+2024-11-20 16:48:51,747 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001774 from output
+2024-11-20 16:48:51,758 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001630 from output
+2024-11-20 16:48:51,758 - phyluce_align_seqcap_align - WARNING - DROPPED uce-870001343 from output
+2024-11-20 16:48:51,761 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1160001995 from output
+2024-11-20 16:48:51,768 - phyluce_align_seqcap_align - WARNING - DROPPED uce-760001565 from output
+2024-11-20 16:48:51,770 - phyluce_align_seqcap_align - WARNING - DROPPED uce-115000779 from output
+2024-11-20 16:48:51,771 - phyluce_align_seqcap_align - WARNING - DROPPED uce-850001568 from output
+2024-11-20 16:48:51,778 - phyluce_align_seqcap_align - WARNING - DROPPED uce-100000991 from output
+2024-11-20 16:48:51,796 - phyluce_align_seqcap_align - WARNING - DROPPED uce-570001718 from output
+2024-11-20 16:48:51,798 - phyluce_align_seqcap_align - WARNING - DROPPED uce-870002070 from output
+2024-11-20 16:48:51,800 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001739 from output
+2024-11-20 16:48:51,806 - phyluce_align_seqcap_align - WARNING - DROPPED uce-770002192 from output
+2024-11-20 16:48:51,808 - phyluce_align_seqcap_align - WARNING - DROPPED uce-860001996 from output
+2024-11-20 16:48:51,810 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001598 from output
+2024-11-20 16:48:51,814 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180003082 from output
+2024-11-20 16:48:51,815 - phyluce_align_seqcap_align - WARNING - DROPPED uce-125000936 from output
+2024-11-20 16:48:51,818 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000242 from output
+2024-11-20 16:48:51,822 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001692 from output
+2024-11-20 16:48:51,822 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1140002587 from output
+2024-11-20 16:48:51,826 - phyluce_align_seqcap_align - WARNING - DROPPED uce-105000891 from output
+2024-11-20 16:48:51,828 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1160002035 from output
+2024-11-20 16:48:51,829 - phyluce_align_seqcap_align - WARNING - DROPPED uce-8800047 from output
+2024-11-20 16:48:51,833 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000202 from output
+2024-11-20 16:48:51,842 - phyluce_align_seqcap_align - WARNING - DROPPED uce-850001361 from output
+2024-11-20 16:48:51,851 - phyluce_align_seqcap_align - WARNING - DROPPED uce-86000893 from output
+2024-11-20 16:48:51,851 - phyluce_align_seqcap_align - WARNING - DROPPED uce-87000603 from output
+2024-11-20 16:48:51,851 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1050001843 from output
+2024-11-20 16:48:51,856 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001897 from output
+2024-11-20 16:48:51,857 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000529 from output
+2024-11-20 16:48:51,857 - phyluce_align_seqcap_align - WARNING - DROPPED uce-107000223 from output
+2024-11-20 16:48:51,860 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000684 from output
+2024-11-20 16:48:51,860 - phyluce_align_seqcap_align - WARNING - DROPPED uce-560001911 from output
+2024-11-20 16:48:51,867 - phyluce_align_seqcap_align - WARNING - DROPPED uce-570001924 from output
+2024-11-20 16:48:51,871 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180003080 from output
+2024-11-20 16:48:51,878 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001948 from output
+2024-11-20 16:48:51,889 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000172 from output
+2024-11-20 16:48:51,892 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001971 from output
+2024-11-20 16:48:51,892 - phyluce_align_seqcap_align - WARNING - DROPPED uce-275000904 from output
+2024-11-20 16:48:51,892 - phyluce_align_seqcap_align - WARNING - DROPPED uce-228000973 from output
+2024-11-20 16:48:51,893 - phyluce_align_seqcap_align - WARNING - DROPPED uce-550001982 from output
+2024-11-20 16:48:51,893 - phyluce_align_seqcap_align - WARNING - DROPPED uce-950001444 from output
+2024-11-20 16:48:51,898 - phyluce_align_seqcap_align - WARNING - DROPPED uce-10800054 from output
+2024-11-20 16:48:51,904 - phyluce_align_seqcap_align - WARNING - DROPPED uce-126000389 from output
+2024-11-20 16:48:51,904 - phyluce_align_seqcap_align - WARNING - DROPPED uce-640001454 from output
+2024-11-20 16:48:51,904 - phyluce_align_seqcap_align - WARNING - DROPPED uce-910001191 from output
+2024-11-20 16:48:51,910 - phyluce_align_seqcap_align - WARNING - DROPPED uce-115000316 from output
+2024-11-20 16:48:51,912 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002372 from output
+2024-11-20 16:48:51,917 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580002084 from output
+2024-11-20 16:48:51,924 - phyluce_align_seqcap_align - WARNING - DROPPED uce-75000940 from output
+2024-11-20 16:48:51,926 - phyluce_align_seqcap_align - WARNING - DROPPED uce-128000113 from output
+2024-11-20 16:48:51,928 - phyluce_align_seqcap_align - WARNING - DROPPED uce-85000127 from output
+2024-11-20 16:48:51,933 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002104 from output
+2024-11-20 16:48:51,943 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000695 from output
+2024-11-20 16:48:51,943 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002357 from output
+2024-11-20 16:48:51,943 - phyluce_align_seqcap_align - WARNING - DROPPED uce-65000863 from output
+2024-11-20 16:48:51,945 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000970 from output
+2024-11-20 16:48:51,950 - phyluce_align_seqcap_align - WARNING - DROPPED uce-77000568 from output
+2024-11-20 16:48:51,955 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001159 from output
+2024-11-20 16:48:51,956 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060002327 from output
+2024-11-20 16:48:51,956 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001564 from output
+2024-11-20 16:48:51,956 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001794 from output
+2024-11-20 16:48:51,965 - phyluce_align_seqcap_align - WARNING - DROPPED uce-221000470 from output
+2024-11-20 16:48:51,965 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060001688 from output
+2024-11-20 16:48:51,965 - phyluce_align_seqcap_align - WARNING - DROPPED uce-106000138 from output
+2024-11-20 16:48:51,967 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000983 from output
+2024-11-20 16:48:51,970 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001428 from output
+2024-11-20 16:48:51,970 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001414 from output
+2024-11-20 16:48:51,974 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1160001170 from output
+2024-11-20 16:48:51,974 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2480001027 from output
+2024-11-20 16:48:51,976 - phyluce_align_seqcap_align - WARNING - DROPPED uce-960001263 from output
+2024-11-20 16:48:51,977 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000328 from output
+2024-11-20 16:48:51,979 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000474 from output
+2024-11-20 16:48:51,979 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000299 from output
+2024-11-20 16:48:51,984 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2040001014 from output
+2024-11-20 16:48:51,986 - phyluce_align_seqcap_align - WARNING - DROPPED uce-221000994 from output
+2024-11-20 16:48:51,997 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001973 from output
+2024-11-20 16:48:51,999 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001337 from output
+2024-11-20 16:48:52,000 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001240 from output
+2024-11-20 16:48:52,001 - phyluce_align_seqcap_align - WARNING - DROPPED uce-235000885 from output
+2024-11-20 16:48:52,004 - phyluce_align_seqcap_align - WARNING - DROPPED uce-550001334 from output
+2024-11-20 16:48:52,005 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000880 from output
+2024-11-20 16:48:52,005 - phyluce_align_seqcap_align - WARNING - DROPPED uce-222000950 from output
+2024-11-20 16:48:52,008 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780002211 from output
+2024-11-20 16:48:52,011 - phyluce_align_seqcap_align - WARNING - DROPPED uce-230000718 from output
+2024-11-20 16:48:52,012 - phyluce_align_seqcap_align - WARNING - DROPPED uce-760001721 from output
+2024-11-20 16:48:52,012 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000416 from output
+2024-11-20 16:48:52,012 - phyluce_align_seqcap_align - WARNING - DROPPED uce-550002162 from output
+2024-11-20 16:48:52,019 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001347 from output
+2024-11-20 16:48:52,024 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2220001437 from output
+2024-11-20 16:48:52,024 - phyluce_align_seqcap_align - WARNING - DROPPED uce-128000160 from output
+2024-11-20 16:48:52,026 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2040001084 from output
+2024-11-20 16:48:52,026 - phyluce_align_seqcap_align - WARNING - DROPPED uce-125000159 from output
+2024-11-20 16:48:52,029 - phyluce_align_seqcap_align - WARNING - DROPPED uce-66000498 from output
+2024-11-20 16:48:52,029 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000385 from output
+2024-11-20 16:48:52,036 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1260001105 from output
+2024-11-20 16:48:52,036 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001305 from output
+2024-11-20 16:48:52,045 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1050001865 from output
+2024-11-20 16:48:52,053 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000329 from output
+2024-11-20 16:48:52,053 - phyluce_align_seqcap_align - WARNING - DROPPED uce-650001250 from output
+2024-11-20 16:48:52,059 - phyluce_align_seqcap_align - WARNING - DROPPED uce-570001974 from output
+2024-11-20 16:48:52,063 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000804 from output
+2024-11-20 16:48:52,072 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1100002111 from output
+2024-11-20 16:48:52,073 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000340 from output
+2024-11-20 16:48:52,075 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002458 from output
+2024-11-20 16:48:52,076 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001975 from output
+2024-11-20 16:48:52,081 - phyluce_align_seqcap_align - WARNING - DROPPED uce-56000760 from output
+2024-11-20 16:48:52,092 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000144 from output
+2024-11-20 16:48:52,092 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1170002604 from output
+2024-11-20 16:48:52,095 - phyluce_align_seqcap_align - WARNING - DROPPED uce-71000264 from output
+2024-11-20 16:48:52,098 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001323 from output
+2024-11-20 16:48:52,099 - phyluce_align_seqcap_align - WARNING - DROPPED uce-650001018 from output
+2024-11-20 16:48:52,099 - phyluce_align_seqcap_align - WARNING - DROPPED uce-650001934 from output
+2024-11-20 16:48:52,100 - phyluce_align_seqcap_align - WARNING - DROPPED uce-650001585 from output
+2024-11-20 16:48:52,100 - phyluce_align_seqcap_align - WARNING - DROPPED uce-238000718 from output
+2024-11-20 16:48:52,104 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002182 from output
+2024-11-20 16:48:52,110 - phyluce_align_seqcap_align - WARNING - DROPPED uce-6800012 from output
+2024-11-20 16:48:52,110 - phyluce_align_seqcap_align - WARNING - DROPPED uce-56000499 from output
+2024-11-20 16:48:52,115 - phyluce_align_seqcap_align - WARNING - DROPPED uce-950001325 from output
+2024-11-20 16:48:52,115 - phyluce_align_seqcap_align - WARNING - DROPPED uce-540001674 from output
+2024-11-20 16:48:52,118 - phyluce_align_seqcap_align - WARNING - DROPPED uce-750001383 from output
+2024-11-20 16:48:52,125 - phyluce_align_seqcap_align - WARNING - DROPPED uce-550001798 from output
+2024-11-20 16:48:52,125 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1270001193 from output
+2024-11-20 16:48:52,125 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000887 from output
+2024-11-20 16:48:52,130 - phyluce_align_seqcap_align - WARNING - DROPPED uce-970001351 from output
+2024-11-20 16:48:52,133 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002339 from output
+2024-11-20 16:48:52,142 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1070002183 from output
+2024-11-20 16:48:52,144 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000766 from output
+2024-11-20 16:48:52,146 - phyluce_align_seqcap_align - WARNING - DROPPED uce-570001876 from output
+2024-11-20 16:48:52,151 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1150002746 from output
+2024-11-20 16:48:52,163 - phyluce_align_seqcap_align - WARNING - DROPPED uce-11800015 from output
+2024-11-20 16:48:52,163 - phyluce_align_seqcap_align - WARNING - DROPPED uce-660001119 from output
+2024-11-20 16:48:52,163 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001234 from output
+2024-11-20 16:48:52,177 - phyluce_align_seqcap_align - WARNING - DROPPED uce-95000775 from output
+2024-11-20 16:48:52,179 - phyluce_align_seqcap_align - WARNING - DROPPED uce-670001139 from output
+2024-11-20 16:48:52,182 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000397 from output
+2024-11-20 16:48:52,184 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001474 from output
+2024-11-20 16:48:52,185 - phyluce_align_seqcap_align - WARNING - DROPPED uce-128000148 from output
+2024-11-20 16:48:52,185 - phyluce_align_seqcap_align - WARNING - DROPPED uce-117000597 from output
+2024-11-20 16:48:52,190 - phyluce_align_seqcap_align - WARNING - DROPPED uce-104000907 from output
+2024-11-20 16:48:52,199 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580002268 from output
+2024-11-20 16:48:52,207 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002258 from output
+2024-11-20 16:48:52,208 - phyluce_align_seqcap_align - WARNING - DROPPED uce-960001816 from output
+2024-11-20 16:48:52,208 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000804 from output
+2024-11-20 16:48:52,214 - phyluce_align_seqcap_align - WARNING - DROPPED uce-740002496 from output
+2024-11-20 16:48:52,214 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001443 from output
+2024-11-20 16:48:52,214 - phyluce_align_seqcap_align - WARNING - DROPPED uce-128000327 from output
+2024-11-20 16:48:52,219 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2320001348 from output
+2024-11-20 16:48:52,220 - phyluce_align_seqcap_align - WARNING - DROPPED uce-860001227 from output
+2024-11-20 16:48:52,225 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780002519 from output
+2024-11-20 16:48:52,226 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1170001681 from output
+2024-11-20 16:48:52,235 - phyluce_align_seqcap_align - WARNING - DROPPED uce-860002222 from output
+2024-11-20 16:48:52,235 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001296 from output
+2024-11-20 16:48:52,237 - phyluce_align_seqcap_align - WARNING - DROPPED uce-124000178 from output
+2024-11-20 16:48:52,237 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001977 from output
+2024-11-20 16:48:52,237 - phyluce_align_seqcap_align - WARNING - DROPPED uce-950001779 from output
+2024-11-20 16:48:52,242 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680002115 from output
+2024-11-20 16:48:52,242 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001544 from output
+2024-11-20 16:48:52,242 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000262 from output
+2024-11-20 16:48:52,242 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000131 from output
+2024-11-20 16:48:52,242 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000139 from output
+2024-11-20 16:48:52,246 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1170001969 from output
+2024-11-20 16:48:52,250 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000664 from output
+2024-11-20 16:48:52,257 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780002398 from output
+2024-11-20 16:48:52,257 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000110 from output
+2024-11-20 16:48:52,257 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000414 from output
+2024-11-20 16:48:52,257 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001687 from output
+2024-11-20 16:48:52,257 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000587 from output
+2024-11-20 16:48:52,263 - phyluce_align_seqcap_align - WARNING - DROPPED uce-54000331 from output
+2024-11-20 16:48:52,263 - phyluce_align_seqcap_align - WARNING - DROPPED uce-96000645 from output
+2024-11-20 16:48:52,268 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2370001295 from output
+2024-11-20 16:48:52,268 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000993 from output
+2024-11-20 16:48:52,268 - phyluce_align_seqcap_align - WARNING - DROPPED uce-870001948 from output
+2024-11-20 16:48:52,271 - phyluce_align_seqcap_align - WARNING - DROPPED uce-125000571 from output
+2024-11-20 16:48:52,271 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001767 from output
+2024-11-20 16:48:52,275 - phyluce_align_seqcap_align - WARNING - DROPPED uce-86000435 from output
+2024-11-20 16:48:52,275 - phyluce_align_seqcap_align - WARNING - DROPPED uce-97000961 from output
+2024-11-20 16:48:52,278 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000251 from output
+2024-11-20 16:48:52,279 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001790 from output
+2024-11-20 16:48:52,279 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1070001651 from output
+2024-11-20 16:48:52,282 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000722 from output
+2024-11-20 16:48:52,282 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001171 from output
+2024-11-20 16:48:52,284 - phyluce_align_seqcap_align - WARNING - DROPPED uce-850002318 from output
+2024-11-20 16:48:52,284 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001686 from output
+2024-11-20 16:48:52,288 - phyluce_align_seqcap_align - WARNING - DROPPED uce-640001736 from output
+2024-11-20 16:48:52,299 - phyluce_align_seqcap_align - WARNING - DROPPED uce-255000135 from output
+2024-11-20 16:48:52,300 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1050001756 from output
+2024-11-20 16:48:52,313 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000993 from output
+2024-11-20 16:48:52,316 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001396 from output
+2024-11-20 16:48:52,318 - phyluce_align_seqcap_align - WARNING - DROPPED uce-51000128 from output
+2024-11-20 16:48:52,328 - phyluce_align_seqcap_align - WARNING - DROPPED uce-540001754 from output
+2024-11-20 16:48:52,329 - phyluce_align_seqcap_align - WARNING - DROPPED uce-74000780 from output
+2024-11-20 16:48:52,330 - phyluce_align_seqcap_align - WARNING - DROPPED uce-850002326 from output
+2024-11-20 16:48:52,334 - phyluce_align_seqcap_align - WARNING - DROPPED uce-770001389 from output
+2024-11-20 16:48:52,334 - phyluce_align_seqcap_align - WARNING - DROPPED uce-560001258 from output
+2024-11-20 16:48:52,338 - phyluce_align_seqcap_align - WARNING - DROPPED uce-7800059 from output
+2024-11-20 16:48:52,338 - phyluce_align_seqcap_align - WARNING - DROPPED uce-67000401 from output
+2024-11-20 16:48:52,340 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001245 from output
+2024-11-20 16:48:52,345 - phyluce_align_seqcap_align - WARNING - DROPPED uce-94000337 from output
+2024-11-20 16:48:52,350 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001490 from output
+2024-11-20 16:48:52,356 - phyluce_align_seqcap_align - WARNING - DROPPED uce-96000591 from output
+2024-11-20 16:48:52,356 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000679 from output
+2024-11-20 16:48:52,363 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2540001017 from output
+2024-11-20 16:48:52,363 - phyluce_align_seqcap_align - WARNING - DROPPED uce-960001780 from output
+2024-11-20 16:48:52,367 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1070001525 from output
+2024-11-20 16:48:52,367 - phyluce_align_seqcap_align - WARNING - DROPPED uce-950001705 from output
+2024-11-20 16:48:52,373 - phyluce_align_seqcap_align - WARNING - DROPPED uce-11600038 from output
+2024-11-20 16:48:52,379 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001431 from output
+2024-11-20 16:48:52,383 - phyluce_align_seqcap_align - WARNING - DROPPED uce-560001830 from output
+2024-11-20 16:48:52,384 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060001827 from output
+2024-11-20 16:48:52,391 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000261 from output
+2024-11-20 16:48:52,394 - phyluce_align_seqcap_align - WARNING - DROPPED uce-540001886 from output
+2024-11-20 16:48:52,394 - phyluce_align_seqcap_align - WARNING - DROPPED uce-770001313 from output
+2024-11-20 16:48:52,400 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000431 from output
+2024-11-20 16:48:52,402 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000751 from output
+2024-11-20 16:48:52,403 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1160002321 from output
+2024-11-20 16:48:52,404 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001860 from output
+2024-11-20 16:48:52,409 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000796 from output
+2024-11-20 16:48:52,409 - phyluce_align_seqcap_align - WARNING - DROPPED uce-54000637 from output
+2024-11-20 16:48:52,409 - phyluce_align_seqcap_align - WARNING - DROPPED uce-550001503 from output
+2024-11-20 16:48:52,409 - phyluce_align_seqcap_align - WARNING - DROPPED uce-100000501 from output
+2024-11-20 16:48:52,410 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001759 from output
+2024-11-20 16:48:52,410 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001388 from output
+2024-11-20 16:48:52,411 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001966 from output
+2024-11-20 16:48:52,411 - phyluce_align_seqcap_align - WARNING - DROPPED uce-64000815 from output
+2024-11-20 16:48:52,413 - phyluce_align_seqcap_align - WARNING - DROPPED uce-97000519 from output
+2024-11-20 16:48:52,413 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000633 from output
+2024-11-20 16:48:52,415 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1160002897 from output
+2024-11-20 16:48:52,419 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1260001856 from output
+2024-11-20 16:48:52,419 - phyluce_align_seqcap_align - WARNING - DROPPED uce-97000997 from output
+2024-11-20 16:48:52,422 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000811 from output
+2024-11-20 16:48:52,426 - phyluce_align_seqcap_align - WARNING - DROPPED uce-128000384 from output
+2024-11-20 16:48:52,426 - phyluce_align_seqcap_align - WARNING - DROPPED uce-80000465 from output
+2024-11-20 16:48:52,427 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060002579 from output
+2024-11-20 16:48:52,428 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060001724 from output
+2024-11-20 16:48:52,430 - phyluce_align_seqcap_align - WARNING - DROPPED uce-7800037 from output
+2024-11-20 16:48:52,430 - phyluce_align_seqcap_align - WARNING - DROPPED uce-550001027 from output
+2024-11-20 16:48:52,433 - phyluce_align_seqcap_align - WARNING - DROPPED uce-116000856 from output
+2024-11-20 16:48:52,434 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000243 from output
+2024-11-20 16:48:52,438 - phyluce_align_seqcap_align - WARNING - DROPPED uce-770001340 from output
+2024-11-20 16:48:52,438 - phyluce_align_seqcap_align - WARNING - DROPPED uce-54000444 from output
+2024-11-20 16:48:52,438 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060001167 from output
+2024-11-20 16:48:52,438 - phyluce_align_seqcap_align - WARNING - DROPPED uce-650002067 from output
+2024-11-20 16:48:52,439 - phyluce_align_seqcap_align - WARNING - DROPPED uce-97000634 from output
+2024-11-20 16:48:52,443 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001309 from output
+2024-11-20 16:48:52,443 - phyluce_align_seqcap_align - WARNING - DROPPED uce-218000162 from output
+2024-11-20 16:48:52,443 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002965 from output
+2024-11-20 16:48:52,444 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002946 from output
+2024-11-20 16:48:52,444 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001450 from output
+2024-11-20 16:48:52,444 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1070001799 from output
+2024-11-20 16:48:52,444 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001424 from output
+2024-11-20 16:48:52,444 - phyluce_align_seqcap_align - WARNING - DROPPED uce-650001437 from output
+2024-11-20 16:48:52,446 - phyluce_align_seqcap_align - WARNING - DROPPED uce-560001415 from output
+2024-11-20 16:48:52,447 - phyluce_align_seqcap_align - WARNING - DROPPED uce-550001634 from output
+2024-11-20 16:48:52,449 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001078 from output
+2024-11-20 16:48:52,451 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000914 from output
+2024-11-20 16:48:52,451 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001274 from output
+2024-11-20 16:48:52,457 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000617 from output
+2024-11-20 16:48:52,460 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000234 from output
+2024-11-20 16:48:52,460 - phyluce_align_seqcap_align - WARNING - DROPPED uce-760002068 from output
+2024-11-20 16:48:52,463 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001671 from output
+2024-11-20 16:48:52,463 - phyluce_align_seqcap_align - WARNING - DROPPED uce-850001738 from output
+2024-11-20 16:48:52,464 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001521 from output
+2024-11-20 16:48:52,476 - phyluce_align_seqcap_align - WARNING - DROPPED uce-870001716 from output
+2024-11-20 16:48:52,476 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000394 from output
+2024-11-20 16:48:52,479 - phyluce_align_seqcap_align - WARNING - DROPPED uce-258000698 from output
+2024-11-20 16:48:52,483 - phyluce_align_seqcap_align - WARNING - DROPPED uce-101000402 from output
+2024-11-20 16:48:52,484 - phyluce_align_seqcap_align - WARNING - DROPPED uce-55000709 from output
+2024-11-20 16:48:52,488 - phyluce_align_seqcap_align - WARNING - DROPPED uce-850002 from output
+2024-11-20 16:48:52,488 - phyluce_align_seqcap_align - WARNING - DROPPED uce-114000633 from output
+2024-11-20 16:48:52,492 - phyluce_align_seqcap_align - WARNING - DROPPED uce-128000917 from output
+2024-11-20 16:48:52,492 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002417 from output
+2024-11-20 16:48:52,494 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001317 from output
+2024-11-20 16:48:52,500 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002792 from output
+2024-11-20 16:48:52,500 - phyluce_align_seqcap_align - WARNING - DROPPED uce-107000962 from output
+2024-11-20 16:48:52,506 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002222 from output
+2024-11-20 16:48:52,506 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1160002686 from output
+2024-11-20 16:48:52,509 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580002136 from output
+2024-11-20 16:48:52,510 - phyluce_align_seqcap_align - WARNING - DROPPED uce-66000454 from output
+2024-11-20 16:48:52,512 - phyluce_align_seqcap_align - WARNING - DROPPED uce-56000221 from output
+2024-11-20 16:48:52,512 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000176 from output
+2024-11-20 16:48:52,516 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1140001644 from output
+2024-11-20 16:48:52,519 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001527 from output
+2024-11-20 16:48:52,519 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001560 from output
+2024-11-20 16:48:52,525 - phyluce_align_seqcap_align - WARNING - DROPPED uce-970001378 from output
+2024-11-20 16:48:52,525 - phyluce_align_seqcap_align - WARNING - DROPPED uce-760002434 from output
+2024-11-20 16:48:52,531 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580002155 from output
+2024-11-20 16:48:52,532 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001348 from output
+2024-11-20 16:48:52,533 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001342 from output
+2024-11-20 16:48:52,533 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1140001965 from output
+2024-11-20 16:48:52,535 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001286 from output
+2024-11-20 16:48:52,535 - phyluce_align_seqcap_align - WARNING - DROPPED uce-101000706 from output
+2024-11-20 16:48:52,536 - phyluce_align_seqcap_align - WARNING - DROPPED uce-56000662 from output
+2024-11-20 16:48:52,539 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060002342 from output
+2024-11-20 16:48:52,539 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000581 from output
+2024-11-20 16:48:52,539 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680002112 from output
+2024-11-20 16:48:52,541 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1270001423 from output
+2024-11-20 16:48:52,555 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060002368 from output
+2024-11-20 16:48:52,556 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2590001103 from output
+2024-11-20 16:48:52,558 - phyluce_align_seqcap_align - WARNING - DROPPED uce-800002054 from output
+2024-11-20 16:48:52,559 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001341 from output
+2024-11-20 16:48:52,563 - phyluce_align_seqcap_align - WARNING - DROPPED uce-127000751 from output
+2024-11-20 16:48:52,563 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001012 from output
+2024-11-20 16:48:52,563 - phyluce_align_seqcap_align - WARNING - DROPPED uce-770001820 from output
+2024-11-20 16:48:52,565 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002717 from output
+2024-11-20 16:48:52,571 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002344 from output
+2024-11-20 16:48:52,574 - phyluce_align_seqcap_align - WARNING - DROPPED uce-960001424 from output
+2024-11-20 16:48:52,574 - phyluce_align_seqcap_align - WARNING - DROPPED uce-960001281 from output
+2024-11-20 16:48:52,576 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1160001652 from output
+2024-11-20 16:48:52,578 - phyluce_align_seqcap_align - WARNING - DROPPED uce-95000357 from output
+2024-11-20 16:48:52,578 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001380 from output
+2024-11-20 16:48:52,578 - phyluce_align_seqcap_align - WARNING - DROPPED uce-277000294 from output
+2024-11-20 16:48:52,578 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1110001633 from output
+2024-11-20 16:48:52,578 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001884 from output
+2024-11-20 16:48:52,580 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000864 from output
+2024-11-20 16:48:52,582 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000315 from output
+2024-11-20 16:48:52,582 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1050001174 from output
+2024-11-20 16:48:52,582 - phyluce_align_seqcap_align - WARNING - DROPPED uce-770001267 from output
+2024-11-20 16:48:52,589 - phyluce_align_seqcap_align - WARNING - DROPPED uce-540001011 from output
+2024-11-20 16:48:52,591 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001497 from output
+2024-11-20 16:48:52,591 - phyluce_align_seqcap_align - WARNING - DROPPED uce-204000743 from output
+2024-11-20 16:48:52,593 - phyluce_align_seqcap_align - WARNING - DROPPED uce-660001817 from output
+2024-11-20 16:48:52,594 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001507 from output
+2024-11-20 16:48:52,595 - phyluce_align_seqcap_align - WARNING - DROPPED uce-840001737 from output
+2024-11-20 16:48:52,595 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001806 from output
+2024-11-20 16:48:52,599 - phyluce_align_seqcap_align - WARNING - DROPPED uce-86000786 from output
+2024-11-20 16:48:52,599 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001249 from output
+2024-11-20 16:48:52,600 - phyluce_align_seqcap_align - WARNING - DROPPED uce-57000263 from output
+2024-11-20 16:48:52,603 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000297 from output
+2024-11-20 16:48:52,603 - phyluce_align_seqcap_align - WARNING - DROPPED uce-960001612 from output
+2024-11-20 16:48:52,603 - phyluce_align_seqcap_align - WARNING - DROPPED uce-860002278 from output
+2024-11-20 16:48:52,608 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000115 from output
+2024-11-20 16:48:52,612 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000846 from output
+2024-11-20 16:48:52,612 - phyluce_align_seqcap_align - WARNING - DROPPED uce-560001604 from output
+2024-11-20 16:48:52,614 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001735 from output
+2024-11-20 16:48:52,625 - phyluce_align_seqcap_align - WARNING - DROPPED uce-259000259 from output
+2024-11-20 16:48:52,627 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001320 from output
+2024-11-20 16:48:52,629 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2050001885 from output
+2024-11-20 16:48:52,634 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001694 from output
+2024-11-20 16:48:52,637 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1050001761 from output
+2024-11-20 16:48:52,651 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000102 from output
+2024-11-20 16:48:52,652 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000475 from output
+2024-11-20 16:48:52,652 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000756 from output
+2024-11-20 16:48:52,653 - phyluce_align_seqcap_align - WARNING - DROPPED uce-235000506 from output
+2024-11-20 16:48:52,659 - phyluce_align_seqcap_align - WARNING - DROPPED uce-750002332 from output
+2024-11-20 16:48:52,659 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000898 from output
+2024-11-20 16:48:52,662 - phyluce_align_seqcap_align - WARNING - DROPPED uce-262000574 from output
+2024-11-20 16:48:52,663 - phyluce_align_seqcap_align - WARNING - DROPPED uce-228000918 from output
+2024-11-20 16:48:52,665 - phyluce_align_seqcap_align - WARNING - DROPPED uce-850001173 from output
+2024-11-20 16:48:52,675 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2600001381 from output
+2024-11-20 16:48:52,678 - phyluce_align_seqcap_align - WARNING - DROPPED uce-116000464 from output
+2024-11-20 16:48:52,685 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000649 from output
+2024-11-20 16:48:52,693 - phyluce_align_seqcap_align - WARNING - DROPPED uce-115000685 from output
+2024-11-20 16:48:52,698 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1250001847 from output
+2024-11-20 16:48:52,716 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002668 from output
+2024-11-20 16:48:52,733 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000337 from output
+2024-11-20 16:48:52,733 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000409 from output
+2024-11-20 16:48:52,738 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580002269 from output
+2024-11-20 16:48:52,745 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001360 from output
+2024-11-20 16:48:52,747 - phyluce_align_seqcap_align - WARNING - DROPPED uce-550001265 from output
+2024-11-20 16:48:52,753 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000630 from output
+2024-11-20 16:48:52,756 - phyluce_align_seqcap_align - WARNING - DROPPED uce-710001043 from output
+2024-11-20 16:48:52,758 - phyluce_align_seqcap_align - WARNING - DROPPED uce-284000785 from output
+2024-11-20 16:48:52,762 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001104 from output
+2024-11-20 16:48:52,766 - phyluce_align_seqcap_align - WARNING - DROPPED uce-56000182 from output
+2024-11-20 16:48:52,773 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000221 from output
+2024-11-20 16:48:52,773 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001160 from output
+2024-11-20 16:48:52,778 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000979 from output
+2024-11-20 16:48:52,781 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580002078 from output
+2024-11-20 16:48:52,782 - phyluce_align_seqcap_align - WARNING - DROPPED uce-128000341 from output
+2024-11-20 16:48:52,787 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780002482 from output
+2024-11-20 16:48:52,793 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000141 from output
+2024-11-20 16:48:52,795 - phyluce_align_seqcap_align - WARNING - DROPPED uce-570001003 from output
+2024-11-20 16:48:52,795 - phyluce_align_seqcap_align - WARNING - DROPPED uce-8800062 from output
+2024-11-20 16:48:52,797 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001929 from output
+2024-11-20 16:48:52,797 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002230 from output
+2024-11-20 16:48:52,800 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001479 from output
+2024-11-20 16:48:52,801 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001199 from output
+2024-11-20 16:48:52,803 - phyluce_align_seqcap_align - WARNING - DROPPED uce-128000400 from output
+2024-11-20 16:48:52,803 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001258 from output
+2024-11-20 16:48:52,803 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001019 from output
+2024-11-20 16:48:52,804 - phyluce_align_seqcap_align - WARNING - DROPPED uce-106000667 from output
+2024-11-20 16:48:52,809 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001267 from output
+2024-11-20 16:48:52,809 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000747 from output
+2024-11-20 16:48:52,820 - phyluce_align_seqcap_align - WARNING - DROPPED uce-54000425 from output
+2024-11-20 16:48:52,821 - phyluce_align_seqcap_align - WARNING - DROPPED uce-650002 from output
+2024-11-20 16:48:52,823 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680002021 from output
+2024-11-20 16:48:52,823 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1150001110 from output
+2024-11-20 16:48:52,823 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1270001370 from output
+2024-11-20 16:48:52,824 - phyluce_align_seqcap_align - WARNING - DROPPED uce-125000218 from output
+2024-11-20 16:48:52,824 - phyluce_align_seqcap_align - WARNING - DROPPED uce-76000352 from output
+2024-11-20 16:48:52,825 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2680001036 from output
+2024-11-20 16:48:52,827 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000169 from output
+2024-11-20 16:48:52,827 - phyluce_align_seqcap_align - WARNING - DROPPED uce-560001381 from output
+2024-11-20 16:48:52,829 - phyluce_align_seqcap_align - WARNING - DROPPED uce-850002272 from output
+2024-11-20 16:48:52,829 - phyluce_align_seqcap_align - WARNING - DROPPED uce-128000865 from output
+2024-11-20 16:48:52,839 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001478 from output
+2024-11-20 16:48:52,839 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001752 from output
+2024-11-20 16:48:52,839 - phyluce_align_seqcap_align - WARNING - DROPPED uce-960001817 from output
+2024-11-20 16:48:52,840 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001564 from output
+2024-11-20 16:48:52,842 - phyluce_align_seqcap_align - WARNING - DROPPED uce-116000595 from output
+2024-11-20 16:48:52,843 - phyluce_align_seqcap_align - WARNING - DROPPED uce-870001930 from output
+2024-11-20 16:48:52,847 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001094 from output
+2024-11-20 16:48:52,851 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000711 from output
+2024-11-20 16:48:52,856 - phyluce_align_seqcap_align - WARNING - DROPPED uce-850001969 from output
+2024-11-20 16:48:52,856 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002747 from output
+2024-11-20 16:48:52,856 - phyluce_align_seqcap_align - WARNING - DROPPED uce-660001684 from output
+2024-11-20 16:48:52,858 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001647 from output
+2024-11-20 16:48:52,860 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000582 from output
+2024-11-20 16:48:52,863 - phyluce_align_seqcap_align - WARNING - DROPPED uce-65000209 from output
+2024-11-20 16:48:52,868 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000941 from output
+2024-11-20 16:48:52,871 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001801 from output
+2024-11-20 16:48:52,871 - phyluce_align_seqcap_align - WARNING - DROPPED uce-95000194 from output
+2024-11-20 16:48:52,882 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000359 from output
+2024-11-20 16:48:52,882 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060001524 from output
+2024-11-20 16:48:52,888 - phyluce_align_seqcap_align - WARNING - DROPPED uce-12700046 from output
+2024-11-20 16:48:52,888 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000327 from output
+2024-11-20 16:48:52,888 - phyluce_align_seqcap_align - WARNING - DROPPED uce-560001492 from output
+2024-11-20 16:48:52,888 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000670 from output
+2024-11-20 16:48:52,889 - phyluce_align_seqcap_align - WARNING - DROPPED uce-56000988 from output
+2024-11-20 16:48:52,889 - phyluce_align_seqcap_align - WARNING - DROPPED uce-87000937 from output
+2024-11-20 16:48:52,893 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000156 from output
+2024-11-20 16:48:52,895 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1070001183 from output
+2024-11-20 16:48:52,904 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001821 from output
+2024-11-20 16:48:52,906 - phyluce_align_seqcap_align - WARNING - DROPPED uce-560001259 from output
+2024-11-20 16:48:52,909 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001378 from output
+2024-11-20 16:48:52,912 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1040002489 from output
+2024-11-20 16:48:52,924 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000748 from output
+2024-11-20 16:48:52,924 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001268 from output
+2024-11-20 16:48:52,926 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000942 from output
+2024-11-20 16:48:52,930 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001542 from output
+2024-11-20 16:48:52,931 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002354 from output
+2024-11-20 16:48:52,932 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001421 from output
+2024-11-20 16:48:52,933 - phyluce_align_seqcap_align - WARNING - DROPPED uce-850002032 from output
+2024-11-20 16:48:52,941 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002895 from output
+2024-11-20 16:48:52,941 - phyluce_align_seqcap_align - WARNING - DROPPED uce-75000904 from output
+2024-11-20 16:48:52,946 - phyluce_align_seqcap_align - WARNING - DROPPED uce-650001136 from output
+2024-11-20 16:48:52,946 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001445 from output
+2024-11-20 16:48:52,946 - phyluce_align_seqcap_align - WARNING - DROPPED uce-56000212 from output
+2024-11-20 16:48:52,946 - phyluce_align_seqcap_align - WARNING - DROPPED uce-96000587 from output
+2024-11-20 16:48:52,949 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000491 from output
+2024-11-20 16:48:52,949 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001092 from output
+2024-11-20 16:48:52,958 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000985 from output
+2024-11-20 16:48:52,958 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001949 from output
+2024-11-20 16:48:52,958 - phyluce_align_seqcap_align - WARNING - DROPPED uce-126000301 from output
+2024-11-20 16:48:52,962 - phyluce_align_seqcap_align - WARNING - DROPPED uce-870001530 from output
+2024-11-20 16:48:52,962 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1260001705 from output
+2024-11-20 16:48:52,962 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1240001644 from output
+2024-11-20 16:48:52,964 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1260001723 from output
+2024-11-20 16:48:52,965 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001960 from output
+2024-11-20 16:48:52,976 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1260001300 from output
+2024-11-20 16:48:52,979 - phyluce_align_seqcap_align - WARNING - DROPPED uce-770001686 from output
+2024-11-20 16:48:52,979 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000110 from output
+2024-11-20 16:48:52,982 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1140001094 from output
+2024-11-20 16:48:52,984 - phyluce_align_seqcap_align - WARNING - DROPPED uce-810001272 from output
+2024-11-20 16:48:52,987 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002499 from output
+2024-11-20 16:48:52,992 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1160001316 from output
+2024-11-20 16:48:52,995 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001335 from output
+2024-11-20 16:48:52,995 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001726 from output
+2024-11-20 16:48:52,995 - phyluce_align_seqcap_align - WARNING - DROPPED uce-104000909 from output
+2024-11-20 16:48:52,996 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000441 from output
+2024-11-20 16:48:52,996 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001271 from output
+2024-11-20 16:48:53,002 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1270001902 from output
+2024-11-20 16:48:53,003 - phyluce_align_seqcap_align - WARNING - DROPPED uce-66000616 from output
+2024-11-20 16:48:53,003 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000185 from output
+2024-11-20 16:48:53,005 - phyluce_align_seqcap_align - WARNING - DROPPED uce-74000220 from output
+2024-11-20 16:48:53,010 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001058 from output
+2024-11-20 16:48:53,011 - phyluce_align_seqcap_align - WARNING - DROPPED uce-740002372 from output
+2024-11-20 16:48:53,011 - phyluce_align_seqcap_align - WARNING - DROPPED uce-660001551 from output
+2024-11-20 16:48:53,012 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001435 from output
+2024-11-20 16:48:53,015 - phyluce_align_seqcap_align - WARNING - DROPPED uce-960001638 from output
+2024-11-20 16:48:53,017 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1270001607 from output
+2024-11-20 16:48:53,017 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680002054 from output
+2024-11-20 16:48:53,017 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001928 from output
+2024-11-20 16:48:53,018 - phyluce_align_seqcap_align - WARNING - DROPPED uce-670001460 from output
+2024-11-20 16:48:53,019 - phyluce_align_seqcap_align - WARNING - DROPPED uce-61000822 from output
+2024-11-20 16:48:53,026 - phyluce_align_seqcap_align - WARNING - DROPPED uce-670001402 from output
+2024-11-20 16:48:53,027 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000473 from output
+2024-11-20 16:48:53,031 - phyluce_align_seqcap_align - WARNING - DROPPED uce-560001776 from output
+2024-11-20 16:48:53,035 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001272 from output
+2024-11-20 16:48:53,036 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1270001710 from output
+2024-11-20 16:48:53,038 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000753 from output
+2024-11-20 16:48:53,039 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001201 from output
+2024-11-20 16:48:53,040 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001755 from output
+2024-11-20 16:48:53,041 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000684 from output
+2024-11-20 16:48:53,044 - phyluce_align_seqcap_align - WARNING - DROPPED uce-770001178 from output
+2024-11-20 16:48:53,062 - phyluce_align_seqcap_align - WARNING - DROPPED uce-65000371 from output
+2024-11-20 16:48:53,070 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001585 from output
+2024-11-20 16:48:53,072 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180003151 from output
+2024-11-20 16:48:53,072 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002150 from output
+2024-11-20 16:48:53,076 - phyluce_align_seqcap_align - WARNING - DROPPED uce-540001294 from output
+2024-11-20 16:48:53,077 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1070002092 from output
+2024-11-20 16:48:53,086 - phyluce_align_seqcap_align - WARNING - DROPPED uce-65000570 from output
+2024-11-20 16:48:53,086 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002707 from output
+2024-11-20 16:48:53,086 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001233 from output
+2024-11-20 16:48:53,094 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002584 from output
+2024-11-20 16:48:53,097 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180003230 from output
+2024-11-20 16:48:53,099 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000461 from output
+2024-11-20 16:48:53,104 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001743 from output
+2024-11-20 16:48:53,115 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001477 from output
+2024-11-20 16:48:53,118 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000703 from output
+2024-11-20 16:48:53,135 - phyluce_align_seqcap_align - WARNING - DROPPED uce-850001968 from output
+2024-11-20 16:48:53,135 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001936 from output
+2024-11-20 16:48:53,138 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000412 from output
+2024-11-20 16:48:53,143 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000195 from output
+2024-11-20 16:48:53,144 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000239 from output
+2024-11-20 16:48:53,146 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001208 from output
+2024-11-20 16:48:53,146 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1150001506 from output
+2024-11-20 16:48:53,147 - phyluce_align_seqcap_align - WARNING - DROPPED uce-500001486 from output
+2024-11-20 16:48:53,149 - phyluce_align_seqcap_align - WARNING - DROPPED uce-116000573 from output
+2024-11-20 16:48:53,155 - phyluce_align_seqcap_align - WARNING - DROPPED uce-660001493 from output
+2024-11-20 16:48:53,155 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2000001268 from output
+2024-11-20 16:48:53,157 - phyluce_align_seqcap_align - WARNING - DROPPED uce-84000968 from output
+2024-11-20 16:48:53,158 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000477 from output
+2024-11-20 16:48:53,158 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000144 from output
+2024-11-20 16:48:53,162 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001415 from output
+2024-11-20 16:48:53,162 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002497 from output
+2024-11-20 16:48:53,168 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001268 from output
+2024-11-20 16:48:53,169 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000701 from output
+2024-11-20 16:48:53,172 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001962 from output
+2024-11-20 16:48:53,174 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000817 from output
+2024-11-20 16:48:53,175 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001216 from output
+2024-11-20 16:48:53,175 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001983 from output
+2024-11-20 16:48:53,176 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001552 from output
+2024-11-20 16:48:53,178 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000487 from output
+2024-11-20 16:48:53,181 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001260 from output
+2024-11-20 16:48:53,183 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001744 from output
+2024-11-20 16:48:53,184 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000695 from output
+2024-11-20 16:48:53,185 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001701 from output
+2024-11-20 16:48:53,185 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001721 from output
+2024-11-20 16:48:53,185 - phyluce_align_seqcap_align - WARNING - DROPPED uce-960001797 from output
+2024-11-20 16:48:53,188 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000228 from output
+2024-11-20 16:48:53,188 - phyluce_align_seqcap_align - WARNING - DROPPED uce-76000966 from output
+2024-11-20 16:48:53,195 - phyluce_align_seqcap_align - WARNING - DROPPED uce-65000950 from output
+2024-11-20 16:48:53,200 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000925 from output
+2024-11-20 16:48:53,200 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000248 from output
+2024-11-20 16:48:53,201 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002578 from output
+2024-11-20 16:48:53,202 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001005 from output
+2024-11-20 16:48:53,213 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001964 from output
+2024-11-20 16:48:53,213 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002117 from output
+2024-11-20 16:48:53,214 - phyluce_align_seqcap_align - WARNING - DROPPED uce-57000715 from output
+2024-11-20 16:48:53,221 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000470 from output
+2024-11-20 16:48:53,221 - phyluce_align_seqcap_align - WARNING - DROPPED uce-226000633 from output
+2024-11-20 16:48:53,222 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001008 from output
+2024-11-20 16:48:53,226 - phyluce_align_seqcap_align - WARNING - DROPPED uce-570001017 from output
+2024-11-20 16:48:53,226 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001189 from output
+2024-11-20 16:48:53,229 - phyluce_align_seqcap_align - WARNING - DROPPED uce-66000440 from output
+2024-11-20 16:48:53,231 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000387 from output
+2024-11-20 16:48:53,231 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001276 from output
+2024-11-20 16:48:53,231 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002420 from output
+2024-11-20 16:48:53,231 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2300001026 from output
+2024-11-20 16:48:53,232 - phyluce_align_seqcap_align - WARNING - DROPPED uce-117000799 from output
+2024-11-20 16:48:53,236 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001082 from output
+2024-11-20 16:48:53,236 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001329 from output
+2024-11-20 16:48:53,238 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000186 from output
+2024-11-20 16:48:53,238 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001623 from output
+2024-11-20 16:48:53,238 - phyluce_align_seqcap_align - WARNING - DROPPED uce-117000347 from output
+2024-11-20 16:48:53,238 - phyluce_align_seqcap_align - WARNING - DROPPED uce-96000102 from output
+2024-11-20 16:48:53,240 - phyluce_align_seqcap_align - WARNING - DROPPED uce-760002497 from output
+2024-11-20 16:48:53,246 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880002165 from output
+2024-11-20 16:48:53,250 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001725 from output
+2024-11-20 16:48:53,250 - phyluce_align_seqcap_align - WARNING - DROPPED uce-570001262 from output
+2024-11-20 16:48:53,251 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001531 from output
+2024-11-20 16:48:53,251 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060002303 from output
+2024-11-20 16:48:53,252 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001338 from output
+2024-11-20 16:48:53,253 - phyluce_align_seqcap_align - WARNING - DROPPED uce-670002007 from output
+2024-11-20 16:48:53,254 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000705 from output
+2024-11-20 16:48:53,258 - phyluce_align_seqcap_align - WARNING - DROPPED uce-550001611 from output
+2024-11-20 16:48:53,263 - phyluce_align_seqcap_align - WARNING - DROPPED uce-550001222 from output
+2024-11-20 16:48:53,264 - phyluce_align_seqcap_align - WARNING - DROPPED uce-560002165 from output
+2024-11-20 16:48:53,264 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000177 from output
+2024-11-20 16:48:53,268 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1140002163 from output
+2024-11-20 16:48:53,271 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001131 from output
+2024-11-20 16:48:53,272 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001223 from output
+2024-11-20 16:48:53,272 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002239 from output
+2024-11-20 16:48:53,278 - phyluce_align_seqcap_align - WARNING - DROPPED uce-96000930 from output
+2024-11-20 16:48:53,278 - phyluce_align_seqcap_align - WARNING - DROPPED uce-700002411 from output
+2024-11-20 16:48:53,278 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1140002657 from output
+2024-11-20 16:48:53,285 - phyluce_align_seqcap_align - WARNING - DROPPED uce-660002082 from output
+2024-11-20 16:48:53,293 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001650 from output
+2024-11-20 16:48:53,293 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002049 from output
+2024-11-20 16:48:53,300 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002770 from output
+2024-11-20 16:48:53,308 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001137 from output
+2024-11-20 16:48:53,308 - phyluce_align_seqcap_align - WARNING - DROPPED uce-8800037 from output
+2024-11-20 16:48:53,311 - phyluce_align_seqcap_align - WARNING - DROPPED uce-76000774 from output
+2024-11-20 16:48:53,312 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000296 from output
+2024-11-20 16:48:53,313 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002993 from output
+2024-11-20 16:48:53,316 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060001851 from output
+2024-11-20 16:48:53,317 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000649 from output
+2024-11-20 16:48:53,317 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001000 from output
+2024-11-20 16:48:53,325 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001872 from output
+2024-11-20 16:48:53,327 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001535 from output
+2024-11-20 16:48:53,328 - phyluce_align_seqcap_align - WARNING - DROPPED uce-56000697 from output
+2024-11-20 16:48:53,336 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001934 from output
+2024-11-20 16:48:53,336 - phyluce_align_seqcap_align - WARNING - DROPPED uce-84000134 from output
+2024-11-20 16:48:53,343 - phyluce_align_seqcap_align - WARNING - DROPPED uce-65000816 from output
+2024-11-20 16:48:53,344 - phyluce_align_seqcap_align - WARNING - DROPPED uce-870001198 from output
+2024-11-20 16:48:53,347 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001831 from output
+2024-11-20 16:48:53,347 - phyluce_align_seqcap_align - WARNING - DROPPED uce-870001856 from output
+2024-11-20 16:48:53,347 - phyluce_align_seqcap_align - WARNING - DROPPED uce-760001952 from output
+2024-11-20 16:48:53,349 - phyluce_align_seqcap_align - WARNING - DROPPED uce-860002398 from output
+2024-11-20 16:48:53,356 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000760 from output
+2024-11-20 16:48:53,356 - phyluce_align_seqcap_align - WARNING - DROPPED uce-55000746 from output
+2024-11-20 16:48:53,362 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001806 from output
+2024-11-20 16:48:53,362 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000544 from output
+2024-11-20 16:48:53,373 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000373 from output
+2024-11-20 16:48:53,376 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001936 from output
+2024-11-20 16:48:53,382 - phyluce_align_seqcap_align - WARNING - DROPPED uce-970001675 from output
+2024-11-20 16:48:53,384 - phyluce_align_seqcap_align - WARNING - DROPPED uce-660001140 from output
+2024-11-20 16:48:53,386 - phyluce_align_seqcap_align - WARNING - DROPPED uce-550002272 from output
+2024-11-20 16:48:53,391 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002419 from output
+2024-11-20 16:48:53,402 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000614 from output
+2024-11-20 16:48:53,405 - phyluce_align_seqcap_align - WARNING - DROPPED uce-7800045 from output
+2024-11-20 16:48:53,406 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001045 from output
+2024-11-20 16:48:53,408 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001279 from output
+2024-11-20 16:48:53,424 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001090 from output
+2024-11-20 16:48:53,427 - phyluce_align_seqcap_align - WARNING - DROPPED uce-660001469 from output
+2024-11-20 16:48:53,427 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001309 from output
+2024-11-20 16:48:53,430 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002324 from output
+2024-11-20 16:48:53,430 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001696 from output
+2024-11-20 16:48:53,431 - phyluce_align_seqcap_align - WARNING - DROPPED uce-860002203 from output
+2024-11-20 16:48:53,436 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000264 from output
+2024-11-20 16:48:53,452 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001685 from output
+2024-11-20 16:48:53,452 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002587 from output
+2024-11-20 16:48:53,452 - phyluce_align_seqcap_align - WARNING - DROPPED uce-2380001086 from output
+2024-11-20 16:48:53,461 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001302 from output
+2024-11-20 16:48:53,461 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001005 from output
+2024-11-20 16:48:53,466 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000395 from output
+2024-11-20 16:48:53,469 - phyluce_align_seqcap_align - WARNING - DROPPED uce-57000197 from output
+2024-11-20 16:48:53,471 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000187 from output
+2024-11-20 16:48:53,472 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001492 from output
+2024-11-20 16:48:53,474 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000771 from output
+2024-11-20 16:48:53,474 - phyluce_align_seqcap_align - WARNING - DROPPED uce-870002202 from output
+2024-11-20 16:48:53,481 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001736 from output
+2024-11-20 16:48:53,481 - phyluce_align_seqcap_align - WARNING - DROPPED uce-54000256 from output
+2024-11-20 16:48:53,486 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001576 from output
+2024-11-20 16:48:53,488 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001620 from output
+2024-11-20 16:48:53,495 - phyluce_align_seqcap_align - WARNING - DROPPED uce-960001593 from output
+2024-11-20 16:48:53,498 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001748 from output
+2024-11-20 16:48:53,502 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001638 from output
+2024-11-20 16:48:53,505 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1150002218 from output
+2024-11-20 16:48:53,537 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001555 from output
+2024-11-20 16:48:53,539 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001558 from output
+2024-11-20 16:48:53,539 - phyluce_align_seqcap_align - WARNING - DROPPED uce-750001160 from output
+2024-11-20 16:48:53,545 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002602 from output
+2024-11-20 16:48:53,548 - phyluce_align_seqcap_align - WARNING - DROPPED uce-76000964 from output
+2024-11-20 16:48:53,548 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000390 from output
+2024-11-20 16:48:53,551 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060001533 from output
+2024-11-20 16:48:53,552 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180003016 from output
+2024-11-20 16:48:53,552 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001629 from output
+2024-11-20 16:48:53,553 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000446 from output
+2024-11-20 16:48:53,557 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000520 from output
+2024-11-20 16:48:53,563 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680001503 from output
+2024-11-20 16:48:53,568 - phyluce_align_seqcap_align - WARNING - DROPPED uce-66000439 from output
+2024-11-20 16:48:53,570 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001449 from output
+2024-11-20 16:48:53,586 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002551 from output
+2024-11-20 16:48:53,588 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001385 from output
+2024-11-20 16:48:53,595 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001993 from output
+2024-11-20 16:48:53,596 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001015 from output
+2024-11-20 16:48:53,607 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002376 from output
+2024-11-20 16:48:53,608 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000212 from output
+2024-11-20 16:48:53,615 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001747 from output
+2024-11-20 16:48:53,615 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1070002585 from output
+2024-11-20 16:48:53,615 - phyluce_align_seqcap_align - WARNING - DROPPED uce-670001480 from output
+2024-11-20 16:48:53,615 - phyluce_align_seqcap_align - WARNING - DROPPED uce-87000774 from output
+2024-11-20 16:48:53,621 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001752 from output
+2024-11-20 16:48:53,624 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000736 from output
+2024-11-20 16:48:53,628 - phyluce_align_seqcap_align - WARNING - DROPPED uce-840008 from output
+2024-11-20 16:48:53,632 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002265 from output
+2024-11-20 16:48:53,632 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780001487 from output
+2024-11-20 16:48:53,638 - phyluce_align_seqcap_align - WARNING - DROPPED uce-500001456 from output
+2024-11-20 16:48:53,643 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000719 from output
+2024-11-20 16:48:53,644 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000293 from output
+2024-11-20 16:48:53,647 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001967 from output
+2024-11-20 16:48:53,647 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580002044 from output
+2024-11-20 16:48:53,647 - phyluce_align_seqcap_align - WARNING - DROPPED uce-91000911 from output
+2024-11-20 16:48:53,651 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001134 from output
+2024-11-20 16:48:53,659 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001681 from output
+2024-11-20 16:48:53,660 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180003144 from output
+2024-11-20 16:48:53,660 - phyluce_align_seqcap_align - WARNING - DROPPED uce-670001 from output
+2024-11-20 16:48:53,668 - phyluce_align_seqcap_align - WARNING - DROPPED uce-108000260 from output
+2024-11-20 16:48:53,671 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1270001291 from output
+2024-11-20 16:48:53,673 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000936 from output
+2024-11-20 16:48:53,674 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000668 from output
+2024-11-20 16:48:53,674 - phyluce_align_seqcap_align - WARNING - DROPPED uce-670002084 from output
+2024-11-20 16:48:53,674 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1150001066 from output
+2024-11-20 16:48:53,677 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001148 from output
+2024-11-20 16:48:53,681 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080002446 from output
+2024-11-20 16:48:53,682 - phyluce_align_seqcap_align - WARNING - DROPPED uce-58000801 from output
+2024-11-20 16:48:53,696 - phyluce_align_seqcap_align - WARNING - DROPPED uce-550001442 from output
+2024-11-20 16:48:53,696 - phyluce_align_seqcap_align - WARNING - DROPPED uce-65000374 from output
+2024-11-20 16:48:53,712 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000203 from output
+2024-11-20 16:48:53,737 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000568 from output
+2024-11-20 16:48:53,737 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001981 from output
+2024-11-20 16:48:53,740 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001931 from output
+2024-11-20 16:48:53,742 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001106 from output
+2024-11-20 16:48:53,749 - phyluce_align_seqcap_align - WARNING - DROPPED uce-86000126 from output
+2024-11-20 16:48:53,752 - phyluce_align_seqcap_align - WARNING - DROPPED uce-10800026 from output
+2024-11-20 16:48:53,763 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001310 from output
+2024-11-20 16:48:53,764 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180003022 from output
+2024-11-20 16:48:53,767 - phyluce_align_seqcap_align - WARNING - DROPPED uce-87000161 from output
+2024-11-20 16:48:53,770 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880001584 from output
+2024-11-20 16:48:53,772 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000722 from output
+2024-11-20 16:48:53,775 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1280001197 from output
+2024-11-20 16:48:53,785 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001755 from output
+2024-11-20 16:48:53,785 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002237 from output
+2024-11-20 16:48:53,788 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1250001888 from output
+2024-11-20 16:48:53,788 - phyluce_align_seqcap_align - WARNING - DROPPED uce-12800029 from output
+2024-11-20 16:48:53,795 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001639 from output
+2024-11-20 16:48:53,802 - phyluce_align_seqcap_align - WARNING - DROPPED uce-950001154 from output
+2024-11-20 16:48:53,807 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000689 from output
+2024-11-20 16:48:53,809 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000205 from output
+2024-11-20 16:48:53,810 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000563 from output
+2024-11-20 16:48:53,813 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002552 from output
+2024-11-20 16:48:53,826 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002709 from output
+2024-11-20 16:48:53,830 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001624 from output
+2024-11-20 16:48:53,834 - phyluce_align_seqcap_align - WARNING - DROPPED uce-780002185 from output
+2024-11-20 16:48:53,834 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000502 from output
+2024-11-20 16:48:53,834 - phyluce_align_seqcap_align - WARNING - DROPPED uce-980001761 from output
+2024-11-20 16:48:53,849 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000316 from output
+2024-11-20 16:48:53,850 - phyluce_align_seqcap_align - WARNING - DROPPED uce-216000424 from output
+2024-11-20 16:48:53,865 - phyluce_align_seqcap_align - WARNING - DROPPED uce-77000778 from output
+2024-11-20 16:48:53,865 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001981 from output
+2024-11-20 16:48:53,868 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1060001760 from output
+2024-11-20 16:48:53,872 - phyluce_align_seqcap_align - WARNING - DROPPED uce-580001264 from output
+2024-11-20 16:48:53,875 - phyluce_align_seqcap_align - WARNING - DROPPED uce-78000393 from output
+2024-11-20 16:48:53,879 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002613 from output
+2024-11-20 16:48:53,887 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000384 from output
+2024-11-20 16:48:53,888 - phyluce_align_seqcap_align - WARNING - DROPPED uce-880002218 from output
+2024-11-20 16:48:53,888 - phyluce_align_seqcap_align - WARNING - DROPPED uce-870001927 from output
+2024-11-20 16:48:53,891 - phyluce_align_seqcap_align - WARNING - DROPPED uce-550001488 from output
+2024-11-20 16:48:53,894 - phyluce_align_seqcap_align - WARNING - DROPPED uce-85000155 from output
+2024-11-20 16:48:53,905 - phyluce_align_seqcap_align - WARNING - DROPPED uce-8800044 from output
+2024-11-20 16:48:53,906 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1160001007 from output
+2024-11-20 16:48:53,910 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002793 from output
+2024-11-20 16:48:53,910 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000350 from output
+2024-11-20 16:48:53,918 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180003207 from output
+2024-11-20 16:48:53,939 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180002821 from output
+2024-11-20 16:48:53,943 - phyluce_align_seqcap_align - WARNING - DROPPED uce-118000848 from output
+2024-11-20 16:48:53,943 - phyluce_align_seqcap_align - WARNING - DROPPED uce-9500094 from output
+2024-11-20 16:48:53,947 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1180001737 from output
+2024-11-20 16:48:53,950 - phyluce_align_seqcap_align - WARNING - DROPPED uce-88000756 from output
+2024-11-20 16:48:54,017 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000318 from output
+2024-11-20 16:48:54,025 - phyluce_align_seqcap_align - WARNING - DROPPED uce-1080001816 from output
+2024-11-20 16:48:54,058 - phyluce_align_seqcap_align - WARNING - DROPPED uce-68000271 from output
+2024-11-20 16:48:54,068 - phyluce_align_seqcap_align - WARNING - DROPPED uce-128000195 from output
+2024-11-20 16:48:54,073 - phyluce_align_seqcap_align - WARNING - DROPPED uce-95000190 from output
+2024-11-20 16:48:54,076 - phyluce_align_seqcap_align - WARNING - DROPPED uce-98000966 from output
+2024-11-20 16:48:54,081 - phyluce_align_seqcap_align - WARNING - DROPPED uce-680002058 from output
+2024-11-20 16:48:54,114 - phyluce_align_seqcap_align - INFO - ============== Completed phyluce_align_seqcap_align =============
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - ============== Starting phyluce_align_seqcap_align ==============
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Version: 1.7.1
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Commit: None
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --aligner: mafft
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --ambiguous: False
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --cores: 12
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --input: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/all-taxa-incomplete.fasta
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --log_path: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/log
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --max_divergence: 0.2
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --min_length: 100
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --no_trim: True
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --notstrict: True
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --output: /home/jsprong/MUSEOMICS/BACKBONE/taxon-sets/all/mafft-nexus-internal-trimmed
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --output_format: fasta
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --proportion: 0.65
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --taxa: 199
+2024-11-20 17:18:32,999 - phyluce_align_seqcap_align - INFO - Argument --threshold: 0.65
+2024-11-20 17:18:33,000 - phyluce_align_seqcap_align - INFO - Argument --verbosity: INFO
+2024-11-20 17:18:33,000 - phyluce_align_seqcap_align - INFO - Argument --window: 20
+2024-11-20 17:18:33,000 - phyluce_align_seqcap_align - INFO - Building the locus dictionary
+2024-11-20 17:18:33,000 - phyluce_align_seqcap_align - INFO - Removing ALL sequences with ambiguous bases...
+2024-11-20 17:18:37,816 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-118000853. Too few taxa (N < 3).
+2024-11-20 17:18:37,816 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-68000852. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-108000783. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-580001237. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180004. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680001828. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680001457. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-9700020. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680001879. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-118000376. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1080002581. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-570002222. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1080002203. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-980001264. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-128000248. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-68000409. Too few taxa (N < 3).
+2024-11-20 17:18:37,817 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-12800056. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-11800078. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1170002577. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680001349. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680001264. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-118000574. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-56000441. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680002111. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180002909. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180002098. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-680001373. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-540002133. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180001411. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-58000677. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-118000481. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180001045. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-118000675. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180001298. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-10800013. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180002769. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-880002406. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180002557. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-860001024. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-88000146. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-780001928. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1280001111. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-880002140. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-108000357. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1180002245. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-11800031. Too few taxa (N < 3).
+2024-11-20 17:18:37,818 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-68000946. Too few taxa (N < 3).
+2024-11-20 17:18:37,819 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-128000479. Too few taxa (N < 3).
+2024-11-20 17:18:37,819 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-880001755. Too few taxa (N < 3).
+2024-11-20 17:18:37,819 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1270001915. Too few taxa (N < 3).
+2024-11-20 17:18:37,819 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-580001580. Too few taxa (N < 3).
+2024-11-20 17:18:37,819 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-1080002379. Too few taxa (N < 3).
+2024-11-20 17:18:37,819 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-11800096. Too few taxa (N < 3).
+2024-11-20 17:18:37,819 - phyluce_align_seqcap_align - WARNING - DROPPED locus uce-880001620. Too few taxa (N < 3).
+2024-11-20 17:18:37,909 - phyluce_align_seqcap_align - INFO - Aligning with MAFFT
+2024-11-20 17:18:37,910 - phyluce_align_seqcap_align - INFO - Alignment begins. 'X' indicates dropped alignments (these are reported after alignment)
+2024-11-20 18:10:17,216 - phyluce_align_seqcap_align - INFO - Alignment ends
+2024-11-20 18:10:17,217 - phyluce_align_seqcap_align - INFO - Writing output files
+2024-11-20 18:10:21,314 - phyluce_align_seqcap_align - INFO - ============== Completed phyluce_align_seqcap_align =============
