@@ -1,0 +1,159 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=57;
+	taxlabels
+	GW3257[&!name="GW3257: Neopetrosia sp.",!color=#000000]
+	GW34016[&!name="GW34016: Neopetrosia eurystomata",!color=#000000]
+	GW34021[&!name="GW34021: Neopetrosia eurystomata",!color=#000000]
+	GW34036[&!name="GW34036: Petrosia (Petrosia) hoeksemai",!color=#000000]
+	GW34050[&!name="GW34050: Chalinula zeai",!color=#000000]
+	GW34050_2[&!name="GW34050-2: Chalinula zeai",!color=#000000]
+	GW34058[&!name="GW34058: Xestospongia vanderlandi",!color=#000000]
+	GW34065[&!name="GW34065: Haliclona (Reniera) ruetzleri",!color=#000000]
+	GW34069[&!name="GW34069: Haliclona (Reniera) rotographura",!color=#000000]
+	GW34072[&!name="GW34072: Dendroxea lenis",!color=#000000]
+	GW34080[&!name="GW34080: Dendroxea lenis",!color=#000000]
+	GW34113[&!name="GW34113: Amphimedon denhartogi",!color=#000000]
+	GW34114[&!name="GW34114: Amphimedon denhartogi",!color=#000000]
+	GW34116[&!name="GW34116: Callyspongia (Euplacella) biru",!color=#000000]
+	GW34119[&!name="GW34119: Petrosia (Strongylophora) devoogdae n.sp.",!color=#000000]
+	GW34120[&!name="GW34120: Siphonodictyon zipallapiz",!color=#000000]
+	GW34123[&!name="GW34123: Amphimedon denhartogi",!color=#000000]
+	GW34141[&!name="GW34141: Haliclona (Reniera) griessingeri",!color=#000000]
+	GW34149[&!name="GW34149: Callyspongia (Callyspongia) eschrichtii",!color=#000000]
+	GW34156[&!name="GW34156: Amphimedon denhartogi",!color=#000000]
+	GW34170[&!name="GW34170: Amphimedon sp.",!color=#000000]
+	GW34172[&!name="GW34172: Chalinula aff. milnei",!color=#000000]
+	GW34176[&!name="GW34176: Amphimedon sp.",!color=#000000]
+	GW34184[&!name="GW34184: Siphonodictyon coralliphagum",!color=#000000]
+	GW34188[&!name="GW34188: Siphonodictyon coralliphagum",!color=#000000]
+	GW34221[&!name="GW34221: Amphimedon compressa",!color=#000000]
+	GW34223[&!name="GW34223: Amphimedon sp.",!color=#000000]
+	GW34514[&!name="GW34514: Oceanapia incrustata",!color=#000000]
+	GW34566[&!name="GW34566: Neopetrosia truncata",!color=#000000]
+	GW34579[&!name="GW34579: Acanthostrongylophora ingens",!color=#000000]
+	GW34595[&!name="GW34595: Cribrochalina punctata",!color=#000000]
+	GW34638[&!name="GW34638: Haliclona (Reniera) ciocalyptoides",!color=#000000]
+	GW34645[&!name="GW34645: Haliclona steueri",!color=#000000]
+	GW34695[&!name="GW34695: Haliclona (Reniera) ligniformis",!color=#000000]
+	GW34736[&!name="GW34736: Acanthostrongylophora ingens",!color=#000000]
+	GW34737[&!name="GW34737: Dactylia dichotoma",!color=#000000]
+	GW34759[&!name="GW34759: Callyspongia (Callyspongia) differentiata",!color=#000000]
+	GW34771[&!name="GW34771: Pachychalina rustica",!color=#000000]
+	GW34809[&!name="GW34809: Chalinula renieroides",!color=#000000]
+	GW35170[&!name="GW35170: Neopetrosia sp.",!color=#000000]
+	GW35172[&!name="GW35172: Xestospongia testudinaria",!color=#000000]
+	GW35177[&!name="GW35177: Acanthostrongylophora ingens",!color=#000000]
+	GW35195[&!name="GW35195: Neopetrosia proxima",!color=#000000]
+	GW35206[&!name="GW35206: Xestospongia mamillata",!color=#000000]
+	GW35209[&!name="GW35209: Acanthostrongylophora ingens",!color=#000000]
+	GW4148[&!name="GW4148: Chalinula sp.",!color=#000000]
+	GW4285[&!name="GW4285: Chalinula sp.",!color=#000000]
+	GW4433[&!name="GW4433: Chalinula aff. milnei",!color=#000000]
+	GW4507[&!name="GW4507: Amphimedon chloros",!color=#000000]
+	GW5894[&!name="GW5894: Amphimedon sp.",!color=#000000]
+	GW5936[&!name="GW5936: Amphimedon aff. jalae",!color=#000000]
+	GW5998[&!name="GW5998: Amphimedon aff. jalae",!color=#000000]
+	GW6114[&!name="GW6114: Amphimedon dinae",!color=#000000]
+	GW6134[&!name="GW6134: Chalinula aff. milnei",!color=#000000]
+	HIND[&!name="Haliclona (Rhizoniera) indistincta",!color=#000000]
+	HVIS[&!name="Haliclona (Rhizoniera) viscosa",!color=#000000]
+	NCOM[&!name="Neopetrosia compacta",!color=#000000]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((GW34736:0.017556,GW34579:0.007679)[&bs=73]:0.002236,GW35177:0.006421)[&bs=39]:0.001318,(GW34566:0.008896,((((GW34065:0.106668,GW34058:1.82E-4)[&bs=100]:0.016428,(GW34695:0.050052,GW3257:0.00562)[&bs=100]:0.006936)[&bs=100]:0.012671,((GW34021:0.004058,GW34016:0.003087)[&bs=100]:0.004498,((GW35172:0.081282,GW35170:0.006892)[&bs=100]:0.00325,GW35195:0.006564)[&bs=100]:0.00544)[&bs=100]:0.026087)[&bs=100]:0.01418,((GW34645:0.036576,GW35206:0.041128)[&bs=100]:0.008938,((GW34113:0.059838,(GW34080:0.01666,GW34072:0.224076)[&bs=100]:0.048949)[&bs=99]:0.008629,(GW34119:0.132111,(GW34036:0.101967,(((GW34595:0.190752,(GW34114:0.003709,(GW34156:0.006686,GW34123:0.002132)[&bs=59]:7.2E-5)[&bs=100]:0.147858)[&bs=100]:0.0321,((GW34514:0.104532,(GW34188:0.001516,GW34184:0.009713)[&bs=100]:0.137039)[&bs=100]:0.051038,NCOM:0.116992)[&bs=100]:0.286582)[&bs=100]:0.033915,(((GW34050:0.002945,GW34050_2:0.007897)[&bs=100]:0.029875,((GW34176:0.005024,GW5894:0.002206)[&bs=100]:0.00345,GW34069:0.013636)[&bs=100]:0.034709)[&bs=100]:0.123235,((((GW4285:0.004207,GW4148:0.007948)[&bs=100]:0.061846,((GW34737:0.182128,(GW34116:0.037587,GW34759:0.015199)[&bs=93]:0.008818)[&bs=100]:0.030369,((HIND:0.026228,(GW34149:0.003512,(GW34141:0.002052,GW34771:0.043551)[&bs=90]:0.003126)[&bs=100]:0.013441)[&bs=100]:0.022113,(GW6114:0.026049,(GW34120:0.178322,(GW34638:0.023777,(GW6134:0.002174,(GW4433:0.002194,GW34172:0.003014)[&bs=47]:7.03E-4)[&bs=100]:0.025489)[&bs=100]:0.006076)[&bs=100]:0.006446)[&bs=100]:0.010045)[&bs=100]:0.011678)[&bs=100]:0.010942)[&bs=100]:0.010301,(HVIS:0.068321,GW34223:0.054873)[&bs=100]:0.013424)[&bs=100]:0.065425,(((GW34170:0.017339,(GW5936:0.022463,GW5998:0.005107)[&bs=100]:0.012559)[&bs=100]:0.016447,(GW34221:0.043453,GW34809:0.43365)[&bs=100]:0.08012)[&bs=100]:0.026655,GW4507:0.035951)[&bs=100]:0.080814)[&bs=100]:0.034728)[&bs=100]:0.076819)[&bs=100]:0.06831)[&bs=87]:0.011047)[&bs=100]:0.019294)[&bs=100]:0.03392)[&bs=100]:0.008525)[&bs=100]:0.028421)[&bs=68]:0.002153,GW35209:0.009358);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="bs";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=16;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=1000;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bs";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=16;
+	set tipLabels.fontStyle=2;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
