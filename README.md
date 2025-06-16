@@ -34,6 +34,7 @@ For the following information we recommend to consult the following github page:
 
 * Access  to transcriptomic data (assemblies) used for bait design (assembled using TransPi)  
 * Access to the assemblies of the Red Sea Haplosclerida (Van der Sprong et al. 2024)
+* More information of the specimens can also be found on https://sbd.palmuc.org/ 
 
 ### Citation
 [...]
