@@ -1,4 +1,4 @@
-# Genomics as a focal point of evolution in haplosclerid sponges
+# Moving beyond morphology: Genomic insights into evolutionary histories of haplosclerid sponges
 
 Joëlle van der Sprong <sup>1§</sup>; Nicole J. de Voogd <sup>2,3</sup>; Simone Schätzle <sup>1</sup>; Nora Dotzler <sup>1</sup>; Sergio Vargas <sup>1</sup>; Gert Wörheide <sup>1,4,5</sup>; Dirk Erpenbeck <sup>1,4§</sup>
 
